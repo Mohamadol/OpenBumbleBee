@@ -1,0 +1,6 @@
+Running on CPU ...
+CPU runtime: 3.302778482437134s
+output logits: [[-0.11851182  0.37737066]]
+Running on SPU ...
+SPU runtime: 299.62391662597656s
+output logits: [[-0.10656738  0.38027954]]

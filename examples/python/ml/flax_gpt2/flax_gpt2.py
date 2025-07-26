@@ -140,9 +140,14 @@ def run_on_spu(model, input_ids, tokenizer):
 def main(tokenizer_func, model_func, checkpoint):
     model = model_func.from_pretrained(checkpoint)
     tokenizer = tokenizer_func.from_pretrained(checkpoint)
+    # input_ids = tokenizer.encode(
+    #     'I enjoy walking with my cute dog', return_tensors='jax'
+    # )
     input_ids = tokenizer.encode(
-        'I enjoy walking with my cute dog', return_tensors='jax'
+        "What is the capital city these countries: France, Germany, Italy?",
+        return_tensors='jax',
     )
+    print(input_ids.shape)
 
     run_on_cpu(model, input_ids, tokenizer)
     run_on_spu(model, input_ids, tokenizer)

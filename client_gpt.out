@@ -1,0 +1,7 @@
+(1, 34)
+Running on CPU ...
+CPU runtime: 16.0856294631958s
+output What is the capital city of each country in the following list: France, Germany, Italy, Spain, Japan, Brazil, Canada, Australia, India, and Egypt?
+
+The capital city of each country
+Running on SPU ...

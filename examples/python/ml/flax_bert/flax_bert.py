@@ -45,6 +45,7 @@ import spu.utils.distributed as ppd
 
 import jax.numpy as jnp
 
+
 def pad_to_length(tensor, target_length, pad_value):
     current_length = tensor.shape[-1]
     if current_length >= target_length:
@@ -161,8 +162,10 @@ def main(tokenizer_func, model_func, checkpoint):
         )
 
         # Manually pad to length
-        max_length = 32
-        input_ids = pad_to_length(input_ids, max_length, pad_value=tokenizer.pad_token_id)
+        max_length = 128
+        input_ids = pad_to_length(
+            input_ids, max_length, pad_value=tokenizer.pad_token_id
+        )
         attention_masks = pad_to_length(attention_masks, max_length, pad_value=0)
 
         run_on_cpu(model, input_ids, attention_masks, labels)
