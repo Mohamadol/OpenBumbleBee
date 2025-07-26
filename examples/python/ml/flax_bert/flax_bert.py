@@ -43,6 +43,17 @@ import spu.intrinsic as intrinsic
 import spu.spu_pb2 as spu_pb2
 import spu.utils.distributed as ppd
 
+import jax.numpy as jnp
+
+def pad_to_length(tensor, target_length, pad_value):
+    current_length = tensor.shape[-1]
+    if current_length >= target_length:
+        return tensor
+    pad_width = target_length - current_length
+    pad_tensor = jnp.full((1, pad_width), pad_value, dtype=tensor.dtype)
+    return jnp.concatenate([tensor, pad_tensor], axis=-1)
+
+
 copts = spu_pb2.CompilerOptions()
 # enable x / broadcast(y) -> x * broadcast(1/y) which accelerate the softmax
 copts.enable_optimize_denominator_with_broadcast = True
@@ -148,6 +159,11 @@ def main(tokenizer_func, model_func, checkpoint):
                 return_tensors="jax",
             )["attention_mask"],
         )
+
+        # Manually pad to length
+        max_length = 32
+        input_ids = pad_to_length(input_ids, max_length, pad_value=tokenizer.pad_token_id)
+        attention_masks = pad_to_length(attention_masks, max_length, pad_value=0)
 
         run_on_cpu(model, input_ids, attention_masks, labels)
         run_on_spu(model, input_ids, attention_masks, labels)
