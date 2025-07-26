@@ -5,6 +5,7 @@ protobuf==5.27.3
 cloudpickle>=2.0.0
 multiprocess>=0.70.12.2
 cachetools>=5.0.0
+flax==0.8.4
 jax[cpu]==0.4.26 
 termcolor>=2.0.0
 pandas>=1.4.2
