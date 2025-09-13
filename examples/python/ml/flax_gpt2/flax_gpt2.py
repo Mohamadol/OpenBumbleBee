@@ -86,7 +86,7 @@ def hijack(enabled=True):
     fnn.softmax = fnn_sm
 
 
-TOKEN_NUM = 8
+TOKEN_NUM = 4
 
 
 def run_on_cpu(model, input_ids, tokenizer):
@@ -144,12 +144,12 @@ def main(tokenizer_func, model_func, checkpoint):
     #     'I enjoy walking with my cute dog', return_tensors='jax'
     # )
     input_ids = tokenizer.encode(
-        "What is the capital city these countries: France, Germany, Italy?",
+        "Dear GPT, I want you to generate a token for me. This token will be so valueable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people who laugh and celebrate kindness. Corruption, greed, religion, and neglect seem to drain the life out of places that deserve better. I wonder if one day the story will change, and justice will be served. Until then, here I sit, asking a machine for a single token, as if it could mean something.",
         return_tensors='jax',
     )
     print(input_ids.shape)
 
-    run_on_cpu(model, input_ids, tokenizer)
+    # run_on_cpu(model, input_ids, tokenizer)
     run_on_spu(model, input_ids, tokenizer)
 
 

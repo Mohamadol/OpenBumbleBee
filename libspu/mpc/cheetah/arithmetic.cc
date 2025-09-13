@@ -449,6 +449,12 @@ NdArrayRef MatMulAV::proc(KernelEvalContext* ctx, const NdArrayRef& x,
   const int owner = ptype->owner();
   NdArrayRef out;
   const Shape3D dim3 = {x.shape()[0], x.shape()[1], y.shape()[1]};
+
+  if(x.shape()[1]==768 && y.shape()[1]==768*3){
+    layer_i_++;
+    std::cout << "projecting for layer " << layer_i_ << std::endl;
+  }
+
   // (x0 + x1)*y = <x0 * y>_0 + <x0 * y>_1 + x1 * y
   if (rank == owner) {
     // Compute <y * x0>

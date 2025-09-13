@@ -195,6 +195,8 @@ class MatMulAV : public MatmulKernel {
   // RHS: k x n
   NdArrayRef proc(KernelEvalContext* ctx, const NdArrayRef& x,
                   const NdArrayRef& y) const override;
+
+  inline static int layer_i_ = 0;
 };
 
 class MatMulVVS : public MatmulKernel {
