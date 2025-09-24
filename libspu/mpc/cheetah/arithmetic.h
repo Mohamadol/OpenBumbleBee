@@ -15,6 +15,7 @@
 #pragma once
 
 #include "libspu/mpc/kernel.h"
+#include "phoenix_API/matmul_API.h"
 
 namespace spu::mpc::cheetah {
 class RandA : public RandKernel {

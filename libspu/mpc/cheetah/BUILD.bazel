@@ -88,6 +88,12 @@ spu_cc_library(
         "//libspu/mpc/cheetah/arith:cheetah_arith",
         "//libspu/mpc/cheetah/nonlinear:equal_prot",
         "//libspu/mpc/cheetah/nonlinear:truncate_prot",
+        "@com_github_phoenix//:phoenix",
+    ],
+    copts = [
+        "-maes",
+        "-msse4.1",
+        "-mpclmul",
     ],
 )
 
@@ -104,6 +110,11 @@ spu_cc_library(
         "//libspu/mpc/common:pv2k",
         "//libspu/mpc/standard_shape:protocol",
     ],
+        copts = [
+        "-maes",
+        "-msse4.1",
+        "-mpclmul",
+    ],
 )
 
 spu_cc_library(
@@ -116,6 +127,11 @@ spu_cc_library(
         ":conversion",
         ":tiled_dispatch",
         "//libspu/core:encoding",
+    ],
+        copts = [
+        "-maes",
+        "-msse4.1",
+        "-mpclmul",
     ],
 )
 

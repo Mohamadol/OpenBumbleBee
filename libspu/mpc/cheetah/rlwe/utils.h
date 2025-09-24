@@ -24,6 +24,7 @@
 #include "libspu/core/prelude.h"
 #include "libspu/mpc/cheetah/rlwe/types.h"
 
+#ifndef CATCH_SEAL_ERROR
 #define CATCH_SEAL_ERROR(state)                          \
   do {                                                   \
     try {                                                \
@@ -32,6 +33,7 @@
       SPU_THROW(fmt::format("SEAL error {}", e.what())); \
     }                                                    \
   } while (false)
+#endif
 
 namespace seal {
 class Ciphertext;

@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 
@@ -34,6 +35,7 @@ def spu_deps():
     _com_github_nvidia_cutlass()
     _yacl()
     _libpsi()
+    _com_github_phoenix()
 
 def _yacl():
     maybe(
@@ -265,4 +267,12 @@ def _com_github_nvidia_cutlass():
         ],
         sha256 = "ef6af8526e3ad04f9827f35ee57eec555d09447f70a0ad0cf684a2e426ccbcb6",
         build_file = "@spulib//bazel:nvidia_cutlass.BUILD",
+    )
+
+def _com_github_phoenix():
+    git_repository(
+        name        = "com_github_phoenix",
+        remote      = "git@bitbucket.org:compstruct/phoenix.git",
+        commit      = "bdb1776052b7676a7387dcf1ed3c47759abc5b70",
+        build_file  = "@spulib//bazel:phoenix.BUILD",
     )
