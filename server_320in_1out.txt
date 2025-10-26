@@ -1,0 +1,594 @@
+[2025-10-26 19:12:10.097] [info] [thread_pool.cc:30] Create a fixed thread pool with size 31
+[2025-10-26 19:12:26.363] [info] [thread_pool.cc:30] Create a fixed thread pool with size 31
+[2025-10-26 19:12:36.602] [info] [cheetah_dot.cc:310] CheetahDot uses 3@2 modulus 8192 degree for 64 bit ring (packing=enabled)
+[2025-10-26 19:12:37.055] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 154.654 ms (pack_lwes)
+[2025-10-26 19:12:37.556] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 143.157 ms (pack_lwes)
+[2025-10-26 19:12:38.023] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.57 ms (pack_lwes)
+[2025-10-26 19:12:38.497] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.752 ms (pack_lwes)
+[2025-10-26 19:12:39.021] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 169.233 ms (pack_lwes)
+[2025-10-26 19:12:39.550] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 160.07 ms (pack_lwes)
+[2025-10-26 19:12:40.080] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 157.282 ms (pack_lwes)
+[2025-10-26 19:12:40.551] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.023 ms (pack_lwes)
+[2025-10-26 19:12:41.020] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.695 ms (pack_lwes)
+[2025-10-26 19:12:41.492] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.429 ms (pack_lwes)
+[2025-10-26 19:12:41.963] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.75 ms (pack_lwes)
+[2025-10-26 19:12:42.449] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.405 ms (pack_lwes)
+[2025-10-26 19:12:42.940] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.414 ms (pack_lwes)
+[2025-10-26 19:12:43.464] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 163.381 ms (pack_lwes)
+[2025-10-26 19:12:43.997] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.251 ms (pack_lwes)
+[2025-10-26 19:12:44.470] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.959 ms (pack_lwes)
+[2025-10-26 19:12:44.951] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.271 ms (pack_lwes)
+[2025-10-26 19:12:45.422] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.583 ms (pack_lwes)
+[2025-10-26 19:12:45.889] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.485 ms (pack_lwes)
+[2025-10-26 19:12:46.358] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.705 ms (pack_lwes)
+[2025-10-26 19:12:46.842] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.471 ms (pack_lwes)
+[2025-10-26 19:12:47.313] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.287 ms (pack_lwes)
+[2025-10-26 19:12:47.784] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.11 ms (pack_lwes)
+[2025-10-26 19:12:48.303] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 167.356 ms (pack_lwes)
+[2025-10-26 19:12:48.775] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.763 ms (pack_lwes)
+[2025-10-26 19:12:49.249] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.437 ms (pack_lwes)
+[2025-10-26 19:12:49.741] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.237 ms (pack_lwes)
+[2025-10-26 19:12:50.225] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.504 ms (pack_lwes)
+[2025-10-26 19:12:50.692] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.89 ms (pack_lwes)
+[2025-10-26 19:12:51.162] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 133.594 ms (pack_lwes)
+[2025-10-26 19:12:51.685] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.67 ms (pack_lwes)
+[2025-10-26 19:12:52.190] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.3 ms (pack_lwes)
+[2025-10-26 19:12:52.668] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.624 ms (pack_lwes)
+[2025-10-26 19:12:53.137] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.429 ms (pack_lwes)
+[2025-10-26 19:12:53.674] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 160.748 ms (pack_lwes)
+[2025-10-26 19:12:54.210] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 164.161 ms (pack_lwes)
+[2025-10-26 19:12:54.726] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 155.183 ms (pack_lwes)
+[2025-10-26 19:12:55.257] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.832 ms (pack_lwes)
+[2025-10-26 19:12:55.753] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.299 ms (pack_lwes)
+[2025-10-26 19:12:56.299] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.663 ms (pack_lwes)
+[2025-10-26 19:12:56.772] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.061 ms (pack_lwes)
+[2025-10-26 19:12:57.257] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.169 ms (pack_lwes)
+[2025-10-26 19:12:57.733] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.725 ms (pack_lwes)
+[2025-10-26 19:12:58.209] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.872 ms (pack_lwes)
+[2025-10-26 19:12:58.679] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.877 ms (pack_lwes)
+[2025-10-26 19:12:59.179] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.395 ms (pack_lwes)
+[2025-10-26 19:12:59.655] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.568 ms (pack_lwes)
+[2025-10-26 19:13:00.134] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.653 ms (pack_lwes)
+[2025-10-26 19:13:00.627] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 152.515 ms (pack_lwes)
+[2025-10-26 19:13:01.146] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 146.137 ms (pack_lwes)
+[2025-10-26 19:13:01.626] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.136 ms (pack_lwes)
+[2025-10-26 19:13:02.104] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.545 ms (pack_lwes)
+[2025-10-26 19:13:02.636] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.746 ms (pack_lwes)
+[2025-10-26 19:13:03.175] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.161 ms (pack_lwes)
+[2025-10-26 19:13:03.703] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.31 ms (pack_lwes)
+[2025-10-26 19:13:04.189] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.018 ms (pack_lwes)
+[2025-10-26 19:13:04.690] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.804 ms (pack_lwes)
+[2025-10-26 19:13:05.173] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 144.352 ms (pack_lwes)
+[2025-10-26 19:13:05.659] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.474 ms (pack_lwes)
+[2025-10-26 19:13:06.175] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.33 ms (pack_lwes)
+[2025-10-26 19:13:06.644] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.155 ms (pack_lwes)
+[2025-10-26 19:13:07.120] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.696 ms (pack_lwes)
+[2025-10-26 19:13:07.586] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.981 ms (pack_lwes)
+[2025-10-26 19:13:08.090] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.242 ms (pack_lwes)
+[2025-10-26 19:13:08.632] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.276 ms (pack_lwes)
+[2025-10-26 19:13:09.105] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.67 ms (pack_lwes)
+[2025-10-26 19:13:09.588] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 147.701 ms (pack_lwes)
+[2025-10-26 19:13:10.077] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 153.445 ms (pack_lwes)
+[2025-10-26 19:13:10.551] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.282 ms (pack_lwes)
+[2025-10-26 19:13:11.026] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.583 ms (pack_lwes)
+[2025-10-26 19:13:11.501] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.037 ms (pack_lwes)
+[2025-10-26 19:13:11.988] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.279 ms (pack_lwes)
+[2025-10-26 19:13:12.503] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 154.627 ms (pack_lwes)
+[2025-10-26 19:13:12.997] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.647 ms (pack_lwes)
+[2025-10-26 19:13:13.485] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.49 ms (pack_lwes)
+[2025-10-26 19:13:13.972] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.308 ms (pack_lwes)
+[2025-10-26 19:13:14.451] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 148.785 ms (pack_lwes)
+[2025-10-26 19:13:14.970] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.607 ms (pack_lwes)
+[2025-10-26 19:13:15.493] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.404 ms (pack_lwes)
+[2025-10-26 19:13:16.017] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 161.837 ms (pack_lwes)
+[2025-10-26 19:13:16.536] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.365 ms (pack_lwes)
+[2025-10-26 19:13:17.033] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.309 ms (pack_lwes)
+[2025-10-26 19:13:17.512] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 144.575 ms (pack_lwes)
+[2025-10-26 19:13:17.999] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 145.005 ms (pack_lwes)
+[2025-10-26 19:13:18.480] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 146.581 ms (pack_lwes)
+[2025-10-26 19:13:18.950] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.979 ms (pack_lwes)
+[2025-10-26 19:13:19.433] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.067 ms (pack_lwes)
+[2025-10-26 19:13:19.905] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.249 ms (pack_lwes)
+[2025-10-26 19:13:20.439] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 165.679 ms (pack_lwes)
+[2025-10-26 19:13:20.924] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.517 ms (pack_lwes)
+[2025-10-26 19:13:21.440] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.772 ms (pack_lwes)
+[2025-10-26 19:13:21.907] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.811 ms (pack_lwes)
+[2025-10-26 19:13:22.429] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.525 ms (pack_lwes)
+[2025-10-26 19:13:22.904] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.882 ms (pack_lwes)
+[2025-10-26 19:13:23.423] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.737 ms (pack_lwes)
+[2025-10-26 19:13:23.928] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.742 ms (pack_lwes)
+[2025-10-26 19:13:24.412] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.102 ms (pack_lwes)
+[2025-10-26 19:13:24.907] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.692 ms (pack_lwes)
+[2025-10-26 19:13:25.384] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.117 ms (pack_lwes)
+[2025-10-26 19:13:25.855] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.507 ms (pack_lwes)
+[2025-10-26 19:13:26.334] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.302 ms (pack_lwes)
+[2025-10-26 19:13:26.835] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.564 ms (pack_lwes)
+[2025-10-26 19:13:27.301] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.782 ms (pack_lwes)
+[2025-10-26 19:13:27.761] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.22 ms (pack_lwes)
+[2025-10-26 19:13:28.259] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.849 ms (pack_lwes)
+[2025-10-26 19:13:28.755] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.33 ms (pack_lwes)
+[2025-10-26 19:13:29.263] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.565 ms (pack_lwes)
+[2025-10-26 19:13:29.738] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.987 ms (pack_lwes)
+[2025-10-26 19:13:30.207] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.097 ms (pack_lwes)
+[2025-10-26 19:13:30.678] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.738 ms (pack_lwes)
+[2025-10-26 19:13:31.146] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.705 ms (pack_lwes)
+[2025-10-26 19:13:31.656] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.174 ms (pack_lwes)
+[2025-10-26 19:13:32.180] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.642 ms (pack_lwes)
+[2025-10-26 19:13:32.654] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.123 ms (pack_lwes)
+[2025-10-26 19:13:33.123] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.715 ms (pack_lwes)
+[2025-10-26 19:13:33.598] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.399 ms (pack_lwes)
+[2025-10-26 19:13:34.086] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.566 ms (pack_lwes)
+[2025-10-26 19:13:34.562] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.468 ms (pack_lwes)
+[2025-10-26 19:13:35.043] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.014 ms (pack_lwes)
+[2025-10-26 19:13:35.519] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.952 ms (pack_lwes)
+[2025-10-26 19:13:36.014] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 143.39 ms (pack_lwes)
+[2025-10-26 19:13:36.496] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.633 ms (pack_lwes)
+[2025-10-26 19:13:36.976] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.821 ms (pack_lwes)
+[2025-10-26 19:13:37.445] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.798 ms (pack_lwes)
+[2025-10-26 19:13:37.912] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.087 ms (pack_lwes)
+[2025-10-26 19:13:38.407] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 155.258 ms (pack_lwes)
+[2025-10-26 19:13:38.882] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.788 ms (pack_lwes)
+[2025-10-26 19:13:39.352] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.927 ms (pack_lwes)
+[2025-10-26 19:13:39.830] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.77 ms (pack_lwes)
+[2025-10-26 19:13:40.307] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.455 ms (pack_lwes)
+[2025-10-26 19:13:40.781] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.755 ms (pack_lwes)
+[2025-10-26 19:13:41.247] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.542 ms (pack_lwes)
+[2025-10-26 19:13:41.759] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.731 ms (pack_lwes)
+[2025-10-26 19:13:42.251] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.838 ms (pack_lwes)
+[2025-10-26 19:13:42.725] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.156 ms (pack_lwes)
+[2025-10-26 19:13:43.196] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.139 ms (pack_lwes)
+[2025-10-26 19:13:43.680] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 146.85 ms (pack_lwes)
+[2025-10-26 19:13:44.165] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.629 ms (pack_lwes)
+[2025-10-26 19:13:44.649] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.35 ms (pack_lwes)
+[2025-10-26 19:13:45.122] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.723 ms (pack_lwes)
+[2025-10-26 19:13:45.597] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.614 ms (pack_lwes)
+[2025-10-26 19:13:46.091] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.065 ms (pack_lwes)
+[2025-10-26 19:13:46.642] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.833 ms (pack_lwes)
+[2025-10-26 19:13:47.202] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.309 ms (pack_lwes)
+[2025-10-26 19:13:47.670] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.201 ms (pack_lwes)
+[2025-10-26 19:13:48.137] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.399 ms (pack_lwes)
+[2025-10-26 19:13:48.604] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.045 ms (pack_lwes)
+[2025-10-26 19:13:49.141] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 165.098 ms (pack_lwes)
+[2025-10-26 19:13:49.613] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.336 ms (pack_lwes)
+[2025-10-26 19:13:50.132] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 168.226 ms (pack_lwes)
+[2025-10-26 19:13:50.662] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.84 ms (pack_lwes)
+[2025-10-26 19:13:51.132] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.27 ms (pack_lwes)
+[2025-10-26 19:13:51.604] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.12 ms (pack_lwes)
+[2025-10-26 19:13:52.070] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.409 ms (pack_lwes)
+[2025-10-26 19:13:52.544] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.476 ms (pack_lwes)
+[2025-10-26 19:13:53.038] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.192 ms (pack_lwes)
+[2025-10-26 19:13:53.514] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.506 ms (pack_lwes)
+[2025-10-26 19:13:54.031] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 160.653 ms (pack_lwes)
+[2025-10-26 19:13:54.517] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.859 ms (pack_lwes)
+[2025-10-26 19:13:54.992] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.404 ms (pack_lwes)
+[2025-10-26 19:13:55.462] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.269 ms (pack_lwes)
+[2025-10-26 19:13:55.930] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.227 ms (pack_lwes)
+[2025-10-26 19:13:56.391] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.246 ms (pack_lwes)
+[2025-10-26 19:13:56.869] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.521 ms (pack_lwes)
+[2025-10-26 19:13:57.339] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.314 ms (pack_lwes)
+[2025-10-26 19:13:57.807] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.673 ms (pack_lwes)
+[2025-10-26 19:13:58.283] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.771 ms (pack_lwes)
+[2025-10-26 19:13:58.758] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.72 ms (pack_lwes)
+[2025-10-26 19:13:59.242] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 145.109 ms (pack_lwes)
+[2025-10-26 19:13:59.710] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.591 ms (pack_lwes)
+[2025-10-26 19:14:00.180] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.351 ms (pack_lwes)
+[2025-10-26 19:14:00.655] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 144.729 ms (pack_lwes)
+[2025-10-26 19:14:01.128] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.889 ms (pack_lwes)
+[2025-10-26 19:14:01.605] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 146.539 ms (pack_lwes)
+[2025-10-26 19:14:02.090] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.104 ms (pack_lwes)
+[2025-10-26 19:14:02.579] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.577 ms (pack_lwes)
+[2025-10-26 19:14:03.053] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.562 ms (pack_lwes)
+[2025-10-26 19:14:03.521] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.81 ms (pack_lwes)
+[2025-10-26 19:14:03.993] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.049 ms (pack_lwes)
+[2025-10-26 19:14:04.465] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.245 ms (pack_lwes)
+[2025-10-26 19:14:04.937] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.236 ms (pack_lwes)
+[2025-10-26 19:14:05.401] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.423 ms (pack_lwes)
+[2025-10-26 19:14:05.877] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.771 ms (pack_lwes)
+[2025-10-26 19:14:06.355] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.268 ms (pack_lwes)
+[2025-10-26 19:14:06.838] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.061 ms (pack_lwes)
+[2025-10-26 19:14:07.365] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.426 ms (pack_lwes)
+[2025-10-26 19:14:07.836] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.788 ms (pack_lwes)
+[2025-10-26 19:14:08.322] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 150.545 ms (pack_lwes)
+[2025-10-26 19:14:08.859] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.269 ms (pack_lwes)
+[2025-10-26 19:14:09.378] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.179 ms (pack_lwes)
+[2025-10-26 19:14:09.858] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 143.484 ms (pack_lwes)
+[2025-10-26 19:14:10.346] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.366 ms (pack_lwes)
+[2025-10-26 19:14:10.818] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.871 ms (pack_lwes)
+[2025-10-26 19:14:11.342] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.785 ms (pack_lwes)
+[2025-10-26 19:14:11.868] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 157.135 ms (pack_lwes)
+[2025-10-26 19:14:12.343] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.359 ms (pack_lwes)
+[2025-10-26 19:14:12.815] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.378 ms (pack_lwes)
+[2025-10-26 19:14:13.366] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 163.794 ms (pack_lwes)
+[2025-10-26 19:14:13.834] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.288 ms (pack_lwes)
+[2025-10-26 19:14:14.313] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.012 ms (pack_lwes)
+[2025-10-26 19:14:14.848] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 150.6 ms (pack_lwes)
+[2025-10-26 19:14:15.330] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.294 ms (pack_lwes)
+[2025-10-26 19:14:15.802] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.344 ms (pack_lwes)
+[2025-10-26 19:14:16.280] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.947 ms (pack_lwes)
+[2025-10-26 19:14:16.763] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.974 ms (pack_lwes)
+[2025-10-26 19:14:17.233] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.771 ms (pack_lwes)
+[2025-10-26 19:14:17.701] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.322 ms (pack_lwes)
+[2025-10-26 19:14:18.171] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.089 ms (pack_lwes)
+[2025-10-26 19:14:18.648] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.354 ms (pack_lwes)
+[2025-10-26 19:14:19.120] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.173 ms (pack_lwes)
+[2025-10-26 19:14:19.609] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.453 ms (pack_lwes)
+[2025-10-26 19:14:20.085] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.377 ms (pack_lwes)
+[2025-10-26 19:14:20.561] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.126 ms (pack_lwes)
+[2025-10-26 19:14:21.071] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 154.862 ms (pack_lwes)
+[2025-10-26 19:14:21.544] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.734 ms (pack_lwes)
+[2025-10-26 19:14:22.021] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.242 MiB Pack 136.625 ms (pack_lwes)
+[2025-10-26 19:14:22.491] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.242 MiB Pack 136.945 ms (pack_lwes)
+[2025-10-26 19:14:23.010] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.262 ms (pack_lwes)
+[2025-10-26 19:14:23.546] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.415 ms (pack_lwes)
+[2025-10-26 19:14:24.020] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.263 ms (pack_lwes)
+[2025-10-26 19:14:24.506] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.564 ms (pack_lwes)
+[2025-10-26 19:14:25.041] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 163.761 ms (pack_lwes)
+[2025-10-26 19:14:25.519] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.872 ms (pack_lwes)
+[2025-10-26 19:14:26.029] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.501 ms (pack_lwes)
+[2025-10-26 19:14:26.551] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.671 ms (pack_lwes)
+[2025-10-26 19:14:27.039] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.088 ms (pack_lwes)
+[2025-10-26 19:14:27.513] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.29 ms (pack_lwes)
+[2025-10-26 19:14:27.982] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.489 ms (pack_lwes)
+[2025-10-26 19:14:28.470] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.292 ms (pack_lwes)
+[2025-10-26 19:14:28.954] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.351 ms (pack_lwes)
+[2025-10-26 19:14:29.431] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.227 ms (pack_lwes)
+[2025-10-26 19:14:29.907] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.255 ms (pack_lwes)
+[2025-10-26 19:14:30.379] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.059 ms (pack_lwes)
+[2025-10-26 19:14:30.848] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.422 ms (pack_lwes)
+[2025-10-26 19:14:31.325] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.497 ms (pack_lwes)
+[2025-10-26 19:14:32.415] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.028 ms (pack_lwes)
+[2025-10-26 19:14:32.899] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 145.768 ms (pack_lwes)
+[2025-10-26 19:14:37.114] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.548 ms (pack_lwes)
+[2025-10-26 19:14:37.601] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.993 ms (pack_lwes)
+[2025-10-26 19:14:38.724] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.037 ms (pack_lwes)
+[2025-10-26 19:14:39.204] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 145.403 ms (pack_lwes)
+[2025-10-26 19:14:39.676] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.141 ms (pack_lwes)
+[2025-10-26 19:14:40.143] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.083 ms (pack_lwes)
+[2025-10-26 19:14:40.609] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.679 ms (pack_lwes)
+[2025-10-26 19:14:41.090] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.193 ms (pack_lwes)
+[2025-10-26 19:14:41.562] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.309 ms (pack_lwes)
+[2025-10-26 19:14:42.040] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.608 ms (pack_lwes)
+[2025-10-26 19:14:42.523] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.872 ms (pack_lwes)
+[2025-10-26 19:14:42.998] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.452 ms (pack_lwes)
+[2025-10-26 19:14:43.513] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.208 ms (pack_lwes)
+[2025-10-26 19:14:44.004] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.038 ms (pack_lwes)
+[2025-10-26 19:14:44.505] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.113 ms (pack_lwes)
+[2025-10-26 19:14:44.976] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.265 ms (pack_lwes)
+[2025-10-26 19:14:45.459] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.247 ms (pack_lwes)
+[2025-10-26 19:14:45.929] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.451 ms (pack_lwes)
+[2025-10-26 19:14:46.392] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.593 ms (pack_lwes)
+[2025-10-26 19:14:46.867] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 144.721 ms (pack_lwes)
+[2025-10-26 19:14:47.351] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.782 ms (pack_lwes)
+[2025-10-26 19:14:47.824] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.657 ms (pack_lwes)
+[2025-10-26 19:14:48.330] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 157.135 ms (pack_lwes)
+[2025-10-26 19:14:48.868] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 163.432 ms (pack_lwes)
+[2025-10-26 19:14:49.345] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.918 ms (pack_lwes)
+[2025-10-26 19:14:49.858] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 157.67 ms (pack_lwes)
+[2025-10-26 19:14:50.415] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.39 ms (pack_lwes)
+[2025-10-26 19:14:50.907] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.405 ms (pack_lwes)
+[2025-10-26 19:14:51.426] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 161.644 ms (pack_lwes)
+[2025-10-26 19:14:51.899] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.618 ms (pack_lwes)
+[2025-10-26 19:14:52.371] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.588 ms (pack_lwes)
+[2025-10-26 19:14:52.842] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.288 ms (pack_lwes)
+[2025-10-26 19:14:53.361] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 160.996 ms (pack_lwes)
+[2025-10-26 19:14:53.836] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.768 ms (pack_lwes)
+[2025-10-26 19:14:54.320] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.55 ms (pack_lwes)
+[2025-10-26 19:14:54.859] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 157.192 ms (pack_lwes)
+[2025-10-26 19:14:55.369] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 155.415 ms (pack_lwes)
+[2025-10-26 19:14:55.845] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.358 ms (pack_lwes)
+[2025-10-26 19:14:56.318] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.851 ms (pack_lwes)
+[2025-10-26 19:14:56.789] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.188 ms (pack_lwes)
+[2025-10-26 19:14:57.257] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.185 ms (pack_lwes)
+[2025-10-26 19:14:57.726] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.672 ms (pack_lwes)
+[2025-10-26 19:14:58.199] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.817 ms (pack_lwes)
+[2025-10-26 19:14:58.672] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.87 ms (pack_lwes)
+[2025-10-26 19:14:59.154] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 150.631 ms (pack_lwes)
+[2025-10-26 19:14:59.638] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.402 ms (pack_lwes)
+[2025-10-26 19:15:00.111] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.608 ms (pack_lwes)
+[2025-10-26 19:15:00.580] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.278 ms (pack_lwes)
+[2025-10-26 19:15:01.068] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 134.553 ms (pack_lwes)
+[2025-10-26 19:15:01.564] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 138.073 ms (pack_lwes)
+[2025-10-26 19:15:02.038] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.795 ms (pack_lwes)
+[2025-10-26 19:15:02.505] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.433 ms (pack_lwes)
+[2025-10-26 19:15:03.018] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 159.474 ms (pack_lwes)
+[2025-10-26 19:15:03.551] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 158.24 ms (pack_lwes)
+[2025-10-26 19:15:04.031] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.069 ms (pack_lwes)
+[2025-10-26 19:15:04.546] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 161.86 ms (pack_lwes)
+[2025-10-26 19:15:05.093] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 166.831 ms (pack_lwes)
+[2025-10-26 19:15:05.563] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.251 ms (pack_lwes)
+[2025-10-26 19:15:06.078] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 142.376 ms (pack_lwes)
+[2025-10-26 19:15:06.675] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.152 ms (pack_lwes)
+[2025-10-26 19:15:07.170] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.497 ms (pack_lwes)
+[2025-10-26 19:15:07.692] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 156.38 ms (pack_lwes)
+[2025-10-26 19:15:08.161] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.187 ms (pack_lwes)
+[2025-10-26 19:15:08.642] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.908 ms (pack_lwes)
+[2025-10-26 19:15:09.186] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 162.348 ms (pack_lwes)
+[2025-10-26 19:15:09.685] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 144.747 ms (pack_lwes)
+[2025-10-26 19:15:10.167] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 141.563 ms (pack_lwes)
+[2025-10-26 19:15:10.636] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.975 ms (pack_lwes)
+[2025-10-26 19:15:11.109] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.294 ms (pack_lwes)
+[2025-10-26 19:15:11.595] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.904 ms (pack_lwes)
+[2025-10-26 19:15:12.081] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.828 ms (pack_lwes)
+[2025-10-26 19:15:12.566] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.306 ms (pack_lwes)
+[2025-10-26 19:15:13.046] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 146.429 ms (pack_lwes)
+[2025-10-26 19:15:13.518] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 136.719 ms (pack_lwes)
+[2025-10-26 19:15:13.990] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.517 ms (pack_lwes)
+[2025-10-26 19:15:14.468] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 140.071 ms (pack_lwes)
+[2025-10-26 19:15:14.986] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.106 ms (pack_lwes)
+[2025-10-26 19:15:15.473] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 139.008 ms (pack_lwes)
+[2025-10-26 19:15:15.957] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.405 ms (pack_lwes)
+[2025-10-26 19:15:16.432] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.886 ms (pack_lwes)
+[2025-10-26 19:15:16.909] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.063 ms (pack_lwes)
+[2025-10-26 19:15:17.389] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 137.819 ms (pack_lwes)
+[2025-10-26 19:15:17.865] [info] [cheetah_dot.cc:475] 1@1x50257x768 => 1x8192x1 Recv 1.235 MiB, Response 0.243 MiB Pack 135.935 ms (pack_lwes)
+[2025-10-26 19:15:17.995] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-10-26 19:15:17.997] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+projecting for layer 1
+projecting for layer 1
+[2025-10-26 19:15:25.103] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3468.321 ms (interleave)
+[2025-10-26 19:15:30.782] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4957.168 ms (interleave)
+[2025-10-26 19:15:30.856] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4898.737 ms (interleave)
+[2025-10-26 19:15:37.354] [info] [activation.cc:317] f_nexp 1228800 sent 283.6414213180542 MiB
+[2025-10-26 19:15:37.368] [info] [activation.cc:317] f_nexp 1228800 sent 347.0337505340576 MiB
+[2025-10-26 19:15:41.767] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1627.931 ms (interleave)
+[2025-10-26 19:15:41.827] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1643.038 ms (interleave)
+[2025-10-26 19:15:43.288] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1128.133 ms (interleave)
+[2025-10-26 19:15:49.543] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4507.623 ms (interleave)
+[2025-10-26 19:15:54.830] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 223.16864585876465 MiB
+[2025-10-26 19:15:54.844] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.009859085083 MiB
+[2025-10-26 19:15:57.062] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1158.623 ms (interleave)
+projecting for layer 2
+projecting for layer 2
+[2025-10-26 19:16:01.918] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3408.774 ms (interleave)
+[2025-10-26 19:16:07.432] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.583 MiB, Response 36.387 MiB Pack 4882.678 ms (interleave)
+[2025-10-26 19:16:07.472] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4935.545 ms (interleave)
+[2025-10-26 19:16:13.678] [info] [activation.cc:317] f_nexp 1228800 sent 283.6410388946533 MiB
+[2025-10-26 19:16:13.693] [info] [activation.cc:317] f_nexp 1228800 sent 347.0310306549072 MiB
+[2025-10-26 19:16:17.572] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1670.169 ms (interleave)
+[2025-10-26 19:16:17.639] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1635.108 ms (interleave)
+[2025-10-26 19:16:19.107] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1131.317 ms (interleave)
+[2025-10-26 19:16:25.261] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4552.421 ms (interleave)
+[2025-10-26 19:16:28.280] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 218.34570217132568 MiB
+[2025-10-26 19:16:28.291] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.26157760620117 MiB
+[2025-10-26 19:16:30.546] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1137.834 ms (interleave)
+projecting for layer 3
+projecting for layer 3
+[2025-10-26 19:16:35.341] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3400.165 ms (interleave)
+[2025-10-26 19:16:40.918] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4953.119 ms (interleave)
+[2025-10-26 19:16:41.025] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4894.753 ms (interleave)
+[2025-10-26 19:16:50.617] [info] [activation.cc:317] f_nexp 1228800 sent 283.64272022247314 MiB
+[2025-10-26 19:16:50.631] [info] [activation.cc:317] f_nexp 1228800 sent 348.8078317642212 MiB
+[2025-10-26 19:16:55.050] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1652.673 ms (interleave)
+[2025-10-26 19:16:55.066] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1648.384 ms (interleave)
+[2025-10-26 19:16:56.519] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1139.522 ms (interleave)
+[2025-10-26 19:17:02.655] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4535.392 ms (interleave)
+[2025-10-26 19:17:04.547] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 217.83754634857178 MiB
+[2025-10-26 19:17:04.562] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.0087547302246 MiB
+[2025-10-26 19:17:06.776] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.167 MiB, Response 7.277 MiB Pack 1123.204 ms (interleave)
+projecting for layer 4
+projecting for layer 4
+[2025-10-26 19:17:11.636] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3448.548 ms (interleave)
+[2025-10-26 19:17:17.153] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.387 MiB Pack 4907.442 ms (interleave)
+[2025-10-26 19:17:17.172] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4930.839 ms (interleave)
+[2025-10-26 19:17:26.107] [info] [activation.cc:317] f_nexp 1228800 sent 284.1497459411621 MiB
+[2025-10-26 19:17:26.117] [info] [activation.cc:317] f_nexp 1228800 sent 352.3642416000366 MiB
+[2025-10-26 19:17:29.940] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1656.165 ms (interleave)
+[2025-10-26 19:17:29.948] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1635.529 ms (interleave)
+[2025-10-26 19:17:31.428] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1137.05 ms (interleave)
+[2025-10-26 19:17:37.666] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.108 MiB Pack 4597.11 ms (interleave)
+[2025-10-26 19:17:39.542] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 217.83688640594482 MiB
+[2025-10-26 19:17:39.555] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.0088768005371 MiB
+[2025-10-26 19:17:41.787] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1138.525 ms (interleave)
+projecting for layer 5
+projecting for layer 5
+[2025-10-26 19:17:46.593] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3384.04 ms (interleave)
+[2025-10-26 19:17:52.152] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4943.374 ms (interleave)
+[2025-10-26 19:17:52.345] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 5117.256 ms (interleave)
+[2025-10-26 19:17:59.439] [info] [activation.cc:317] f_nexp 1228800 sent 283.6421947479248 MiB
+[2025-10-26 19:17:59.452] [info] [activation.cc:317] f_nexp 1228800 sent 347.02966594696045 MiB
+[2025-10-26 19:18:03.771] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1628.759 ms (interleave)
+[2025-10-26 19:18:03.805] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1651.194 ms (interleave)
+[2025-10-26 19:18:05.264] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1151.436 ms (interleave)
+[2025-10-26 19:18:11.502] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.11 MiB Pack 4585.264 ms (interleave)
+[2025-10-26 19:18:18.836] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 221.64598846435547 MiB
+[2025-10-26 19:18:18.849] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 149.34156703948975 MiB
+[2025-10-26 19:18:21.067] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1136.199 ms (interleave)
+projecting for layer 6
+projecting for layer 6
+[2025-10-26 19:18:25.896] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3425.728 ms (interleave)
+[2025-10-26 19:18:31.419] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4879.316 ms (interleave)
+[2025-10-26 19:18:31.467] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4963.245 ms (interleave)
+[2025-10-26 19:18:39.509] [info] [activation.cc:317] f_nexp 1228800 sent 283.6433353424072 MiB
+[2025-10-26 19:18:39.523] [info] [activation.cc:317] f_nexp 1228800 sent 349.0624256134033 MiB
+[2025-10-26 19:18:44.056] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1673.774 ms (interleave)
+[2025-10-26 19:18:44.064] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1680.038 ms (interleave)
+[2025-10-26 19:18:45.536] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1140.009 ms (interleave)
+[2025-10-26 19:18:51.706] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4576.594 ms (interleave)
+[2025-10-26 19:18:53.564] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 217.83637523651123 MiB
+[2025-10-26 19:18:53.575] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.0088300704956 MiB
+[2025-10-26 19:18:55.809] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1134.809 ms (interleave)
+projecting for layer 7
+projecting for layer 7
+[2025-10-26 19:19:00.781] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3428.361 ms (interleave)
+[2025-10-26 19:19:06.313] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4941.081 ms (interleave)
+[2025-10-26 19:19:06.316] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4922.384 ms (interleave)
+[2025-10-26 19:19:16.131] [info] [activation.cc:317] f_nexp 1228800 sent 283.6433906555176 MiB
+[2025-10-26 19:19:16.145] [info] [activation.cc:317] f_nexp 1228800 sent 348.8080759048462 MiB
+[2025-10-26 19:19:19.413] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1611.905 ms (interleave)
+[2025-10-26 19:19:19.438] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1676.898 ms (interleave)
+[2025-10-26 19:19:20.969] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1154.398 ms (interleave)
+[2025-10-26 19:19:27.223] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4658.621 ms (interleave)
+[2025-10-26 19:19:30.767] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 219.8681526184082 MiB
+[2025-10-26 19:19:30.780] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.2635793685913 MiB
+[2025-10-26 19:19:32.996] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1136.444 ms (interleave)
+projecting for layer 8
+projecting for layer 8
+[2025-10-26 19:19:37.836] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3407.616 ms (interleave)
+[2025-10-26 19:19:43.360] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.583 MiB, Response 36.387 MiB Pack 4905.971 ms (interleave)
+[2025-10-26 19:19:43.407] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4955.904 ms (interleave)
+[2025-10-26 19:19:51.247] [info] [activation.cc:317] f_nexp 1228800 sent 284.148717880249 MiB
+[2025-10-26 19:19:51.263] [info] [activation.cc:317] f_nexp 1228800 sent 350.5867347717285 MiB
+[2025-10-26 19:19:54.498] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1647.251 ms (interleave)
+[2025-10-26 19:19:54.512] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.278 MiB Pack 1628.554 ms (interleave)
+[2025-10-26 19:19:55.962] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1127.605 ms (interleave)
+[2025-10-26 19:20:02.133] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4555.937 ms (interleave)
+[2025-10-26 19:20:05.319] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 220.1226406097412 MiB
+[2025-10-26 19:20:05.334] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.00842094421387 MiB
+[2025-10-26 19:20:07.588] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1131.203 ms (interleave)
+projecting for layer 9
+projecting for layer 9
+[2025-10-26 19:20:12.400] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.831 MiB Pack 3392.462 ms (interleave)
+[2025-10-26 19:20:17.932] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4902.582 ms (interleave)
+[2025-10-26 19:20:18.063] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 5077.624 ms (interleave)
+[2025-10-26 19:20:23.979] [info] [activation.cc:317] f_nexp 1228800 sent 283.6447639465332 MiB
+[2025-10-26 19:20:23.995] [info] [activation.cc:317] f_nexp 1228800 sent 346.77662563323975 MiB
+[2025-10-26 19:20:27.889] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1639.684 ms (interleave)
+[2025-10-26 19:20:27.897] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1672.894 ms (interleave)
+[2025-10-26 19:20:29.406] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1142.131 ms (interleave)
+[2025-10-26 19:20:35.688] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4589.988 ms (interleave)
+[2025-10-26 19:20:40.728] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 221.8994026184082 MiB
+[2025-10-26 19:20:40.743] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.00825691223145 MiB
+[2025-10-26 19:20:42.958] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1125.106 ms (interleave)
+projecting for layer 10
+projecting for layer 10
+[2025-10-26 19:20:47.821] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3440.955 ms (interleave)
+[2025-10-26 19:20:53.410] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4944.348 ms (interleave)
+[2025-10-26 19:20:53.458] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.583 MiB, Response 36.386 MiB Pack 4986.638 ms (interleave)
+[2025-10-26 19:21:00.631] [info] [activation.cc:317] f_nexp 1228800 sent 283.64377880096436 MiB
+[2025-10-26 19:21:00.645] [info] [activation.cc:317] f_nexp 1228800 sent 348.5542936325073 MiB
+[2025-10-26 19:21:04.471] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1647.682 ms (interleave)
+[2025-10-26 19:21:04.486] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1680.3 ms (interleave)
+[2025-10-26 19:21:05.967] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1138.247 ms (interleave)
+[2025-10-26 19:21:12.179] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4527.62 ms (interleave)
+[2025-10-26 19:21:14.458] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 218.09016799926758 MiB
+[2025-10-26 19:21:14.471] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.00944137573242 MiB
+[2025-10-26 19:21:16.748] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1141.22 ms (interleave)
+projecting for layer 11
+projecting for layer 11
+[2025-10-26 19:21:21.632] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3424.927 ms (interleave)
+[2025-10-26 19:21:27.186] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.387 MiB Pack 4902.72 ms (interleave)
+[2025-10-26 19:21:27.260] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 5004.955 ms (interleave)
+[2025-10-26 19:21:36.241] [info] [activation.cc:317] f_nexp 1228800 sent 283.64345264434814 MiB
+[2025-10-26 19:21:36.253] [info] [activation.cc:317] f_nexp 1228800 sent 348.2999439239502 MiB
+[2025-10-26 19:21:39.510] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1657.459 ms (interleave)
+[2025-10-26 19:21:39.520] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1636.89 ms (interleave)
+[2025-10-26 19:21:40.977] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1141.86 ms (interleave)
+[2025-10-26 19:21:47.100] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4493.975 ms (interleave)
+[2025-10-26 19:21:51.558] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 218.09013843536377 MiB
+[2025-10-26 19:21:51.575] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 147.81566619873047 MiB
+[2025-10-26 19:21:54.077] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.167 MiB, Response 7.277 MiB Pack 1276.519 ms (interleave)
+projecting for layer 12
+projecting for layer 12
+[2025-10-26 19:21:59.136] [info] [cheetah_dot.cc:475] 1@320x768x2304 => 64x128x1 Recv 5.292 MiB, Response 21.832 MiB Pack 3498.65 ms (interleave)
+[2025-10-26 19:22:04.668] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4907.151 ms (interleave)
+[2025-10-26 19:22:04.684] [info] [cheetah_dot.cc:475] 12@320x64x320 => 64x64x2 Recv 10.584 MiB, Response 36.386 MiB Pack 4918.897 ms (interleave)
+[2025-10-26 19:22:15.035] [info] [activation.cc:317] f_nexp 1228800 sent 284.1513738632202 MiB
+[2025-10-26 19:22:15.046] [info] [activation.cc:317] f_nexp 1228800 sent 351.09568786621094 MiB
+[2025-10-26 19:22:18.949] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.351 MiB, Response 7.277 MiB Pack 1659.049 ms (interleave)
+[2025-10-26 19:22:18.954] [info] [cheetah_dot.cc:475] 12@64x320x320 => 64x128x1 Recv 6.35 MiB, Response 7.277 MiB Pack 1664.878 ms (interleave)
+[2025-10-26 19:22:20.417] [info] [cheetah_dot.cc:475] 1@320x768x768 => 64x128x1 Recv 5.292 MiB, Response 7.277 MiB Pack 1133.826 ms (interleave)
+[2025-10-26 19:22:26.594] [info] [cheetah_dot.cc:475] 1@320x768x3072 => 64x128x1 Recv 5.292 MiB, Response 29.109 MiB Pack 4584.326 ms (interleave)
+[2025-10-26 19:22:30.757] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 219.86966514587402 MiB
+[2025-10-26 19:22:30.766] [info] [activation.cc:208] seg3_gelu (i32true) 983040 sent 144.26305675506592 MiB
+[2025-10-26 19:22:32.998] [info] [cheetah_dot.cc:475] 1@320x3072x768 => 64x128x1 Recv 21.168 MiB, Response 7.277 MiB Pack 1127.891 ms (interleave)
+[2025-10-26 19:23:29.402] [info] [cheetah_dot.cc:475] 1@320x768x50257 => 64x32x4 Recv 21.168 MiB, Response 476.415 MiB Pack 36613.344 ms (interleave)
+[2025-10-26 19:23:32.898] [info] [api.cc:165] [Profiling] SPU execution eval completed, input processing took 7.8319e-05s, execution took 666.552175735s, output processing took 4.56e-06s, total time 666.552258614s.
+[2025-10-26 19:23:32.900] [info] [api.cc:215] HLO profiling: total time 666.5284979830001
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.dot, executed 49 times, duration 227.754675219s, send MiB 546.9894 recv MiB 1267.438
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.while, executed 1 times, duration 171.50389264s, send MiB 808.3329 recv MiB 150.974
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.dot_general, executed 24 times, duration 95.778205307s, send MiB 761.176 recv MiB 729.2764
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.custom_call: spu.neg_exp, executed 12 times, duration 52.066052351s, send MiB 4185.4504 recv MiB 3405.236
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.reduce, executed 75 times, duration 45.091207451s, send MiB 1113.736 recv MiB 304.4297
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.custom_call: spu.gelu, executed 12 times, duration 41.972326509s, send MiB 2634.6114 recv MiB 1738.0078
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.multiply, executed 199 times, duration 19.147809888s, send MiB 2626.6546 recv MiB 2672.4164
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.reciprocal, executed 12 times, duration 10.590230499s, send MiB 65.9253 recv MiB 66.8559
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.rsqrt, executed 25 times, duration 0.925366937s, send MiB 9.2005 recv MiB 8.0891
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.add, executed 198 times, duration 0.588692466s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.negate, executed 62 times, duration 0.460521471s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.select, executed 4 times, duration 0.258077195s, send MiB 15.4811 recv MiB 11.0122
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.less, executed 31 times, duration 0.218823833s, send MiB 0.5274 recv MiB 0.1001
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.custom_call: spu.gather, executed 1 times, duration 0.136465384s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.convert, executed 6 times, duration 0.01143579s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.free, executed 1348 times, duration 0.009091296s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.not, executed 4 times, duration 0.00691077s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.reshape, executed 291 times, duration 0.00263331s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.broadcast, executed 177 times, duration 0.002302123s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.transpose, executed 109 times, duration 0.002152293s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.iota, executed 3 times, duration 0.000987882s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.slice, executed 38 times, duration 0.000447596s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.concatenate, executed 1 times, duration 0.000101603s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.constant, executed 17 times, duration 7.7555e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - pphlo.and, executed 1 times, duration 1.0615e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.900] [info] [api.cc:215] HAL profiling: total time 665.3660780859998
+[2025-10-26 19:23:32.900] [info] [api.cc:218] - f_mmul, executed 49 times, duration 227.753120798s, send MiB 546.9894 recv MiB 1267.438
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mixed_mmul, executed 320 times, duration 132.963143568s, send MiB 649.952 recv MiB 90.9554
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_batch_mmul, executed 24 times, duration 95.777438802s, send MiB 761.176 recv MiB 729.2764
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_neg_exp_taylor, executed 12 times, duration 52.06588715s, send MiB 4185.4504 recv MiB 3405.236
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_seg3_gelu, executed 12 times, duration 41.972120863s, send MiB 2634.6114 recv MiB 1738.0078
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_less, executed 155 times, duration 40.391613849s, send MiB 999.3236 recv MiB 189.8439
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - i_equal, executed 320 times, duration 20.352552947s, send MiB 157.7518 recv MiB 59.4579
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_mul, executed 174 times, duration 19.132117324s, send MiB 2626.5924 recv MiB 2672.3542
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - i_less, executed 966 times, duration 16.919772226s, send MiB 0.6095 recv MiB 0.5412
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_reciprocal, executed 12 times, duration 10.590091754s, send MiB 65.9253 recv MiB 66.8559
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - _mux, executed 794 times, duration 3.428042484s, send MiB 130.4404 recv MiB 125.7176
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_add, executed 805 times, duration 2.578067894s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_rsqrt, executed 25 times, duration 0.92515688s, send MiB 9.2005 recv MiB 8.0891
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - f_negate, executed 62 times, duration 0.460115434s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - seal, executed 645 times, duration 0.032415793s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mixed_mul, executed 25 times, duration 0.011334675s, send MiB 0.0622 recv MiB 0.0622
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - logical_not, executed 4 times, duration 0.006899399s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - int2fxp, executed 1 times, duration 0.004966889s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - i_add, executed 321 times, duration 0.001210854s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - _and, executed 1 times, duration 8.503e-06s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:215] MPC profiling: total time 665.6735645250001
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mmul_sv, executed 369 times, duration 353.028077595s, send MiB 992.9441 recv MiB 1351.3587
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - batch_mmul_aa, executed 24 times, duration 94.774555976s, send MiB 727.172 recv MiB 727.1671
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - msb_a2b, executed 806 times, duration 57.178134308s, send MiB 1003.2248 recv MiB 190.9619
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - batch_less_ap, executed 24 times, duration 52.381277032s, send MiB 1676.7215 recv MiB 232.1882
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - square_s, executed 84 times, duration 22.644646948s, send MiB 3979.4984 recv MiB 3981.2876
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - equal_sp, executed 320 times, duration 20.349616682s, send MiB 157.7518 recv MiB 59.4579
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - trunc_a, executed 589 times, duration 18.817506843s, send MiB 393.2869 recv MiB 30.4998
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_aa, executed 333 times, duration 18.068432156s, send MiB 2983.2772 recv MiB 2997.1304
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_a1b, executed 863 times, duration 9.227198322s, send MiB 371.2912 recv MiB 370.0216
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - a2b, executed 37 times, duration 6.755062465s, send MiB 11.9972 recv MiB 12.2511
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - add_aa, executed 1724 times, duration 3.501162973s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_av, executed 26 times, duration 2.812711924s, send MiB 286.5196 recv MiB 393.7852
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - and_bb, executed 222 times, duration 1.777407716s, send MiB 4.6467 recv MiB 4.1389
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - not_a, executed 782 times, duration 1.454648452s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - b2a, executed 419 times, duration 1.061700221s, send MiB 134.7534 recv MiB 2.1813
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - update_slice, executed 320 times, duration 0.465806801s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - add_ap, executed 2617 times, duration 0.420548045s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - v2a, executed 395 times, duration 0.284325126s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_ap, executed 259 times, duration 0.203074638s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - pad, executed 320 times, duration 0.198194239s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - xor_bp, executed 85 times, duration 0.059170161s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - and_pp, executed 24 times, duration 0.038502862s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - add_pp, executed 1989 times, duration 0.025024786s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - xor_bb, executed 893 times, duration 0.023877082s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - not_p, executed 1316 times, duration 0.020443211s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - p2a, executed 325 times, duration 0.017477122s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - extract_slice, executed 2746 times, duration 0.01533219s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - p2b, executed 320 times, duration 0.011758867s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - lshift_a, executed 12 times, duration 0.009052161s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - reshape, executed 3472 times, duration 0.008811457s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - make_p, executed 2615 times, duration 0.008689115s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - bitrev_b, executed 62 times, duration 0.00819369s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - lshift_p, executed 1 times, duration 0.004962583s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - rshift_b, executed 534 times, duration 0.004843971s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - concatenate, executed 321 times, duration 0.002828933s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - and_bp, executed 450 times, duration 0.002519649s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - broadcast, executed 511 times, duration 0.001988764s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - msb_p, executed 324 times, duration 0.001689537s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - transpose, executed 185 times, duration 0.001414462s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - common_type_b, executed 320 times, duration 0.00080232s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - cast_type_b, executed 320 times, duration 0.000700341s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - lshift_b, executed 150 times, duration 0.000669638s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_pp, executed 26 times, duration 0.000603242s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - add_vp, executed 12 times, duration 5.9086e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - not_v, executed 4 times, duration 1.4954e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_vv, executed 1 times, duration 1.31e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - msb_v, executed 3 times, duration 1.2631e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - add_vv, executed 2 times, duration 1.1258e-05s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - and_vv, executed 1 times, duration 6.352e-06s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:218] - mul_vp, executed 1 times, duration 2.538e-06s, send MiB 0 recv MiB 0
+[2025-10-26 19:23:32.901] [info] [api.cc:228] Link details: total send MiB 12768.0848, recv MiB 10353.836, send actions 672366
