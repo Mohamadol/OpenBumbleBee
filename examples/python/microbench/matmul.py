@@ -24,7 +24,7 @@ import spu.spu_pb2 as spu_pb2
 import spu.utils.simulation as ppsim
 
 
-def batch_matmul():
+def batch_matmul(N, n, d, d_head):
     config = spu_pb2.RuntimeConfig(
         protocol=spu_pb2.ProtocolKind.CHEETAH, field=spu_pb2.FieldType.FM64
     )
@@ -32,9 +32,9 @@ def batch_matmul():
     config.experimental_enable_colocated_optimization = True
 
     sim = ppsim.Simulator(2, config)
-    batch = 16
-    x = (np.random.randn(batch, 64, 128) * 8.0).astype(int)
-    y = (np.random.randn(batch, 128, 256) * 8.0).astype(int)
+    batch = N
+    x = (np.random.randn(batch, n, d) * 8.0).astype(int)
+    y = (np.random.randn(batch, d, d_head) * 8.0).astype(int)
     target_func = lambda x, y: dot_general(x, y, ((2, 1), (0, 0)))
 
     spu_fn = ppsim.sim_jax(sim, target_func)
@@ -89,6 +89,13 @@ def matmul_with_packlwe():
 
 
 if __name__ == "__main__":
-    batch_matmul()
+    N = 12
+    n = [1, 64]
+    d = [64, 257]
+    d_head = [257, 1]
+
+    for n_, d_, d_head_ in zip(n, d, d_head):
+        print(f"\n\n batch: {N} -- n: {n_} -- d: {d_} -- d_head: {d_head_}")
+        batch_matmul(N, n_, d_, d_head_)
     # matmul_with_packlwe()
     # matmul_with_interleave()
