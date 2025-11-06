@@ -1,0 +1,64 @@
+Profiling 16 tokens on CPU (8 threads) with mode='nocache'…
+=== Model Info ===
+Model: gpt2
+Layers: 12
+Model dim (d_model): 768
+Attention heads: 12
+Head dim (d_head): 64.0
+Vocab size: 50257
+Input tokens: 65
+==================
+
+Token	Linear(ms)	NonLinear(ms)	Total(ms)
+01	  39.406	   1.526	  49.571
+02	  39.679	   1.353	  49.749
+03	  39.046	   1.340	  49.001
+04	  39.765	   1.336	  49.502
+05	  40.997	   1.442	  51.542
+06	  40.892	   1.408	  51.156
+07	  39.987	   1.389	  50.275
+08	  41.533	   1.454	  51.975
+09	  42.601	   1.522	  53.244
+10	  43.681	   1.563	  53.891
+11	  52.675	   1.474	  62.712
+12	  42.417	   1.342	  51.833
+13	  44.215	   1.392	  54.074
+14	  43.113	   1.517	  53.448
+15	  54.476	   1.917	  67.364
+16	  44.029	   1.422	  54.018
+
+=== Summary ===
+Prefill: linear=49.445 ms, nonlinear=2.047 ms, total=64.195 ms
+Last token (nocache) -> linear=44.029 ms, nonlinear=1.422 ms, total=54.018 ms
+Profiling 16 tokens on CPU (8 threads) with mode='kv'…
+=== Model Info ===
+Model: gpt2
+Layers: 12
+Model dim (d_model): 768
+Attention heads: 12
+Head dim (d_head): 64.0
+Vocab size: 50257
+Input tokens: 65
+==================
+
+Token	Linear(ms)	NonLinear(ms)	Total(ms)
+01	   9.307	   0.745	  16.542
+02	   9.209	   0.677	  14.678
+03	   9.163	   0.700	  14.626
+04	  19.786	   0.811	  25.897
+05	   9.316	   0.711	  15.142
+06	   9.388	   0.716	  15.125
+07	   9.344	   0.677	  15.463
+08	   9.304	   0.716	  14.911
+09	  37.959	   0.698	  49.047
+10	   9.631	   2.007	  19.513
+11	   9.729	   0.769	  17.891
+12	   9.732	   0.732	  18.127
+13	   9.594	   0.786	  18.462
+14	   9.604	   0.706	  17.840
+15	   9.382	   0.739	  15.398
+16	   9.287	   0.712	  15.030
+
+=== Summary ===
+Prefill: linear=40.130 ms, nonlinear=1.861 ms, total=53.459 ms
+Last token (kv) -> linear=9.287 ms, nonlinear=0.712 ms, total=15.030 ms

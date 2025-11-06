@@ -89,7 +89,7 @@ def print_model_info(model, tokenizer, input_tokens):
 def main():
     parser = argparse.ArgumentParser(description="Profile GPT-2 linear vs nonlinear CPU time with prefill info")
     parser.add_argument("--model", type=str, default="gpt2")
-    parser.add_argument("--text", type=str, default="Dear GPT, I would like you to generate a token for me. This token will be so valuable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people who laugh and celebrate kindness. Corruption, greed, religion, and neglect seem to drain the life out of places that deserve better. I wonder if one day the story will change, and justice will be served. Until then, here I sit, asking a machine for a single token, as if it could mean something.",
+    parser.add_argument("--text", type=str, default="Dear GPT, I would like you to generate a token for me. This token will be so valuable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people.",
                         help="Prompt text.")
     parser.add_argument("--max-new-tokens", type=int, default=8)
     parser.add_argument("--num-threads", type=int, default=8)
