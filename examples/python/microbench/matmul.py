@@ -89,13 +89,18 @@ def matmul_with_packlwe():
 
 
 if __name__ == "__main__":
-    N = 12
-    n = [1, 64]
-    d = [64, 257]
-    d_head = [257, 1]
 
-    for n_, d_, d_head_ in zip(n, d, d_head):
-        print(f"\n\n batch: {N} -- n: {n_} -- d: {d_} -- d_head: {d_head_}")
-        batch_matmul(N, n_, d_, d_head_)
+    IN_TOKEN = 64
+    TOKENS=16
+    for token_i in range(TOKENS):
+        print(f"\n\n\n Token {token_i}")
+        N = 12
+        n = [1, 64]
+        d = [64, IN_TOKEN + token_i]
+        d_head = [IN_TOKEN + token_i, 1]
+        for n_, d_, d_head_ in zip(n, d, d_head):
+            print(f"\n\n batch: {N} -- n: {n_} -- d: {d_} -- d_head: {d_head_}")
+            batch_matmul(N, n_, d_, d_head_)
+
     # matmul_with_packlwe()
     # matmul_with_interleave()

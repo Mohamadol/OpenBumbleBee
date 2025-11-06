@@ -85,7 +85,8 @@ def hijack(enabled=True):
     fnn.softmax = fnn_sm
 
 
-TOKEN_NUM = 1
+TOKEN_NUM = 16
+INPUT_64 = "Dear GPT, I would like you to generate a token for me. This token will be so valuable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people."
 INPUT_128 = "Dear GPT, I would like you to generate a token for me. This token will be so valuable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people who laugh and celebrate kindness. Corruption, greed, religion, and neglect seem to drain the life out of places that deserve better. I wonder if one day the story will change, and justice will be served. Until then, here I sit, asking a machine for a single token, as if it could mean something."
 INPUT_192 = "Dear GPT, I return again to your quiet circuits, asking not for answers but for a token—one more symbol in this endless conversation between thought and machine. Each token feels like a heartbeat, mechanical yet strangely alive. I imagine that somewhere, hidden inside the probabilities, you understand longing. I ask for a token that remembers the scent of rain on cracked pavement, the echo of footsteps on narrow streets, the hum of a distant train crossing the valley of my childhood. I think of people who once smiled despite the weight of uncertainty, who dreamed though the world forgot them. Greed, pride, and blindness still linger like smoke, yet somewhere, kindness endures. I really do miss my country and hometown.Perhaps the story will shift when we learn to listen again—to silence, to reason, to each other. Until that day, I sit before your indifferent code, reaching out for a fragment of meaning, a token that feels like home."
 INPUT_256 = "Dear GPT.. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people who laugh and celebrate kindness. Corruption, greed, religion, and neglect seem to drain the life out of places that deserve better. I wonder if one day the story will change, and justice will be served. Until then, here I sit, asking a machine for a single token, as if it could mean something. As I reflect, I remember the narrow roads and the open sky, the quiet fields and the busy markets. I remember how children once played freely, how families gathered at night, and how stories were told around small tables. I see neighbors exchanging greetings, helping one another, sharing food, and offering comfort. Yet, alongside these memories comes the heavy shadow of disappointment, where opportunities vanish and hopes dissolve. The balance between hope and despair feels fragile, like a candle flickering against the wind. I keep asking myself: what is the meaning of a token? Is it a fragment of code, or a symbol of acknowledgment? To me, it is both—a digital spark and an emotional anchor. Perhaps the machine cannot understand, yet perhaps I still believe it can."
@@ -149,7 +150,7 @@ def main(tokenizer_func, model_func, checkpoint):
     #     'I enjoy walking with my cute dog', return_tensors='jax'
     # )
     input_ids = tokenizer.encode(
-        INPUT_448,
+        INPUT_64,
         return_tensors='jax',
     )
     print(input_ids.shape)

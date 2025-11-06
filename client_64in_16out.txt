@@ -1,0 +1,4 @@
+(1, 65)
+Running on SPU ...
+SPU runtime: 2712.4193906784058s
+output Dear GPT, I would like you to generate a token for me. This token will be so valuable to me because I am full of emotions now. Give me my token and I will be on my way, returning to thinking about my hometown and my country. I imagine the streets, the houses, and the people. I will be able to see the people and the people will be able to see

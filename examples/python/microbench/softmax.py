@@ -47,7 +47,7 @@ def naive_softmax():
     print("max diff = {}".format(np.max(diff)))
 
 
-def bumblebee_softmax():
+def bumblebee_softmax(rows=128, cols=64):
     config = spu_pb2.RuntimeConfig(
         protocol=spu_pb2.ProtocolKind.CHEETAH, field=spu_pb2.FieldType.FM64
     )
@@ -70,7 +70,7 @@ def bumblebee_softmax():
 
     sim = ppsim.Simulator(2, config)
 
-    x = np.random.randn(128, 32) * 8.0
+    x = np.random.randn(rows, cols) * 8.0
 
     target_func = jnn.softmax
     spu_fn = ppsim.sim_jax(sim, _softmax, copts=copts)
@@ -84,4 +84,9 @@ def bumblebee_softmax():
 
 if __name__ == "__main__":
     # naive_softmax()
-    bumblebee_softmax()
+    TOKENS=16
+    INPUT_TOKENS=64
+    HEADS=12
+    for i in range(TOKENS):
+        print(f"\nSoftmax for 12 x {INPUT_TOKENS + i} tokens")
+        bumblebee_softmax(HEADS, INPUT_TOKENS + i)

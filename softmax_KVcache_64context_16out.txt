@@ -1,0 +1,689 @@
+[2025-11-06 06:58:18.399] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:18.399] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:18.409] [info] [thread_pool.cc:30] Create a fixed thread pool with size 31
+[2025-11-06 06:58:18.521] [info] [activation.cc:317] f_nexp 768 sent 3.136044502258301 MiB
+[2025-11-06 06:58:18.521] [info] [activation.cc:317] f_nexp 768 sent 4.269632339477539 MiB
+[2025-11-06 06:58:18.552] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.94e-07s, execution took 1.593630319s, output processing took 2.461e-06s, total time 1.593633274s.
+[2025-11-06 06:58:18.552] [info] [api.cc:215] HAL profiling: total time 1.592355277
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_less, executed 6 times, duration 1.317929486s, send MiB 0.7524 recv MiB 0.7121
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.243118398s, send MiB 3.136 recv MiB 4.2696
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.029706224s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - _mux, executed 6 times, duration 0.001040463s, send MiB 0.0059 recv MiB 0.0059
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000334488s, send MiB 0.0139 recv MiB 0.0118
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.4891e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - seal, executed 2 times, duration 7.3363e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - f_add, executed 7 times, duration 5.7964e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:215] MPC profiling: total time 1.5918285380000001
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - msb_a2b, executed 7 times, duration 1.3183436s, send MiB 0.7533 recv MiB 0.7123
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - square_s, executed 9 times, duration 0.23260939s, send MiB 3.4226 recv MiB 4.7636
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.014053901s, send MiB 0.3744 recv MiB 0.5234
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011953262s, send MiB 0.0207 recv MiB 0.001
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.011507104s, send MiB 0.0506 recv MiB 0.0096
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - a2b, executed 1 times, duration 0.001013805s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - mul_a1b, executed 7 times, duration 0.000975286s, send MiB 0.0119 recv MiB 0.0119
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000434438s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - b2a, executed 2 times, duration 0.00021326s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - not_a, executed 19 times, duration 0.000212199s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - add_aa, executed 29 times, duration 0.000109857s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - add_ap, executed 26 times, duration 9.8077e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - extract_slice, executed 24 times, duration 8.6589e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - p2a, executed 2 times, duration 5.61e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - make_p, executed 24 times, duration 4.0708e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8731e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - rshift_b, executed 7 times, duration 2.1467e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - reshape, executed 6 times, duration 1.9342e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9055e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1022e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - transpose, executed 2 times, duration 8.034e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.889e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.66e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.762e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:18.552] [info] [api.cc:228] Link details: total send MiB 4.6395, recv MiB 6.0252, send actions 2451
+[2025-11-06 06:58:20.114] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:20.115] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:20.238] [info] [activation.cc:317] f_nexp 780 sent 3.1371536254882812 MiB
+[2025-11-06 06:58:20.238] [info] [activation.cc:317] f_nexp 780 sent 4.270162582397461 MiB
+[2025-11-06 06:58:20.268] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.17e-07s, execution took 1.503260868s, output processing took 1.268e-06s, total time 1.503262653s.
+[2025-11-06 06:58:20.268] [info] [api.cc:215] HAL profiling: total time 1.502071997
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_less, executed 7 times, duration 1.264475109s, send MiB 0.7533 recv MiB 0.7123
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.206422573s, send MiB 3.1372 recv MiB 4.2702
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.029484286s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - _mux, executed 7 times, duration 0.001138036s, send MiB 0.006 recv MiB 0.006
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000343986s, send MiB 0.0141 recv MiB 0.012
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.081e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - f_add, executed 8 times, duration 6.196e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - seal, executed 2 times, duration 5.5237e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:215] MPC profiling: total time 1.501498266
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - msb_a2b, executed 8 times, duration 1.264879306s, send MiB 0.7542 recv MiB 0.7126
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - square_s, executed 9 times, duration 0.194758922s, send MiB 3.4224 recv MiB 4.7637
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.014145629s, send MiB 0.3746 recv MiB 0.5236
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.013004231s, send MiB 0.0211 recv MiB 0.0012
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.011375112s, send MiB 0.0515 recv MiB 0.0099
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - mul_a1b, executed 8 times, duration 0.001032178s, send MiB 0.0121 recv MiB 0.0121
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000924738s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000409993s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000228858s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - not_a, executed 21 times, duration 0.000226159s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - add_aa, executed 33 times, duration 0.00011708s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - add_ap, executed 28 times, duration 9.7986e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - extract_slice, executed 26 times, duration 9.1068e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - make_p, executed 26 times, duration 5.5696e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - p2a, executed 2 times, duration 4.8217e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.7839e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9676e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2553e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1097e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0397e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - transpose, executed 2 times, duration 8.696e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.273e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.75e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.812e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:20.268] [info] [api.cc:228] Link details: total send MiB 4.6418, recv MiB 6.0263, send actions 2471
+[2025-11-06 06:58:21.821] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:21.822] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:21.937] [info] [activation.cc:317] f_nexp 792 sent 3.138613700866699 MiB
+[2025-11-06 06:58:21.937] [info] [activation.cc:317] f_nexp 792 sent 4.270236968994141 MiB
+[2025-11-06 06:58:21.967] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 6.52e-07s, execution took 1.488724022s, output processing took 1.268e-06s, total time 1.488725942s.
+[2025-11-06 06:58:21.967] [info] [api.cc:215] HAL profiling: total time 1.4875304599999999
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_less, executed 7 times, duration 1.281441078s, send MiB 0.7542 recv MiB 0.7126
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.174716087s, send MiB 3.1386 recv MiB 4.2702
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.029709492s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - _mux, executed 7 times, duration 0.001118596s, send MiB 0.0061 recv MiB 0.0061
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000328844s, send MiB 0.0144 recv MiB 0.0122
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.1286e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - f_add, executed 8 times, duration 6.354e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - seal, executed 2 times, duration 6.1537e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:215] MPC profiling: total time 1.4869926560000002
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - msb_a2b, executed 8 times, duration 1.281872522s, send MiB 0.7551 recv MiB 0.7128
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - square_s, executed 9 times, duration 0.165155246s, send MiB 3.4227 recv MiB 4.7635
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.01355372s, send MiB 0.3748 recv MiB 0.5237
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.01156078s, send MiB 0.0523 recv MiB 0.01
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011559098s, send MiB 0.0214 recv MiB 0.0012
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - mul_a1b, executed 8 times, duration 0.001037855s, send MiB 0.0123 recv MiB 0.0123
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000895564s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000379442s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000239138s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - not_a, executed 21 times, duration 0.000232771s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - add_aa, executed 33 times, duration 0.000118663s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - add_ap, executed 28 times, duration 9.7747e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - extract_slice, executed 26 times, duration 9.2242e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - p2a, executed 2 times, duration 5.3012e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - make_p, executed 26 times, duration 4.2219e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8641e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.8851e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2709e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1559e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - reshape, executed 6 times, duration 9.719e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - transpose, executed 2 times, duration 8.357e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 5.011e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.005e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.785e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:21.967] [info] [api.cc:228] Link details: total send MiB 4.6444, recv MiB 6.0269, send actions 2471
+[2025-11-06 06:58:23.498] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:23.498] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:23.614] [info] [activation.cc:317] f_nexp 804 sent 3.1397924423217773 MiB
+[2025-11-06 06:58:23.614] [info] [activation.cc:317] f_nexp 804 sent 4.270230293273926 MiB
+[2025-11-06 06:58:23.644] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.91e-07s, execution took 1.469545642s, output processing took 2.605e-06s, total time 1.469548738s.
+[2025-11-06 06:58:23.644] [info] [api.cc:215] HAL profiling: total time 1.4683362769999997
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_less, executed 8 times, duration 1.26149495s, send MiB 0.7551 recv MiB 0.7128
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.176011406s, send MiB 3.1398 recv MiB 4.2702
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.02907179s, send MiB 0.7311 recv MiB 1.0258
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - _mux, executed 8 times, duration 0.001183427s, send MiB 0.0062 recv MiB 0.0062
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000334367s, send MiB 0.0146 recv MiB 0.0124
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.2399e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - f_add, executed 9 times, duration 8.7536e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - seal, executed 2 times, duration 6.0402e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:215] MPC profiling: total time 1.4677281939999998
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.261830942s, send MiB 0.756 recv MiB 0.713
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - square_s, executed 9 times, duration 0.165504472s, send MiB 3.4227 recv MiB 4.7633
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013977524s, send MiB 0.3749 recv MiB 0.524
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.01172654s, send MiB 0.053 recv MiB 0.0101
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011294102s, send MiB 0.0217 recv MiB 0.0012
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.001052664s, send MiB 0.0125 recv MiB 0.0125
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000912566s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000392746s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - not_a, executed 23 times, duration 0.000246918s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000240559s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.000136752s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000112618s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - extract_slice, executed 28 times, duration 9.6895e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - p2a, executed 2 times, duration 5.2437e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - make_p, executed 28 times, duration 4.6266e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8426e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0186e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2282e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - reshape, executed 6 times, duration 1.1715e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.11e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - transpose, executed 2 times, duration 8.051e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.239e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.546e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.648e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:23.644] [info] [api.cc:228] Link details: total send MiB 4.6467, recv MiB 6.0274, send actions 2491
+[2025-11-06 06:58:25.181] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:25.181] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:25.299] [info] [activation.cc:317] f_nexp 816 sent 3.140920639038086 MiB
+[2025-11-06 06:58:25.299] [info] [activation.cc:317] f_nexp 816 sent 4.270529747009277 MiB
+[2025-11-06 06:58:25.328] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.28e-07s, execution took 1.480359292s, output processing took 2.391e-06s, total time 1.480362111s.
+[2025-11-06 06:58:25.328] [info] [api.cc:215] HAL profiling: total time 1.479315355
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_less, executed 7 times, duration 1.271468249s, send MiB 0.7559 recv MiB 0.7129
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.177420178s, send MiB 3.1409 recv MiB 4.2705
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.028780435s, send MiB 0.7311 recv MiB 1.0257
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - _mux, executed 7 times, duration 0.001079929s, send MiB 0.0063 recv MiB 0.0063
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000336825s, send MiB 0.0148 recv MiB 0.0126
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000105743s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - f_add, executed 8 times, duration 6.5697e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - seal, executed 2 times, duration 5.8299e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:215] MPC profiling: total time 1.478736435
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - msb_a2b, executed 8 times, duration 1.271878396s, send MiB 0.7568 recv MiB 0.7132
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - square_s, executed 9 times, duration 0.167147767s, send MiB 3.4226 recv MiB 4.7634
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013180829s, send MiB 0.3751 recv MiB 0.524
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.011792291s, send MiB 0.0538 recv MiB 0.0103
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011431047s, send MiB 0.022 recv MiB 0.0012
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - mul_a1b, executed 8 times, duration 0.00096548s, send MiB 0.0126 recv MiB 0.0126
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000926669s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.00040808s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000246321s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - not_a, executed 21 times, duration 0.000235578s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - add_aa, executed 33 times, duration 0.000134143s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - add_ap, executed 28 times, duration 9.9752e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - extract_slice, executed 26 times, duration 8.9667e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - p2a, executed 2 times, duration 5.0225e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - make_p, executed 26 times, duration 4.7148e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8609e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9052e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.302e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1307e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0476e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - transpose, executed 2 times, duration 8.428e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - broadcast, executed 2 times, duration 4.858e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.692e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.6e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:25.328] [info] [api.cc:228] Link details: total send MiB 4.649, recv MiB 6.0281, send actions 2471
+[2025-11-06 06:58:26.860] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:26.860] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:26.969] [info] [activation.cc:317] f_nexp 828 sent 3.1419591903686523 MiB
+[2025-11-06 06:58:26.969] [info] [activation.cc:317] f_nexp 828 sent 4.270753860473633 MiB
+[2025-11-06 06:58:26.998] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.73e-07s, execution took 1.466275505s, output processing took 1.159e-06s, total time 1.466277137s.
+[2025-11-06 06:58:26.998] [info] [api.cc:215] HAL profiling: total time 1.4652055160000004
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_less, executed 8 times, duration 1.265686887s, send MiB 0.7568 recv MiB 0.7132
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.169293077s, send MiB 3.142 recv MiB 4.2708
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.028436922s, send MiB 0.7311 recv MiB 1.0257
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - _mux, executed 8 times, duration 0.001200045s, send MiB 0.0064 recv MiB 0.0064
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000356379s, send MiB 0.015 recv MiB 0.0127
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000103731s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - f_add, executed 9 times, duration 6.9735e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - seal, executed 2 times, duration 5.874e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:215] MPC profiling: total time 1.4646298450000002
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.266078567s, send MiB 0.7576 recv MiB 0.7134
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - square_s, executed 9 times, duration 0.158301669s, send MiB 3.4225 recv MiB 4.7633
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013497433s, send MiB 0.3753 recv MiB 0.5243
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.012212066s, send MiB 0.0546 recv MiB 0.0104
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011177807s, send MiB 0.0224 recv MiB 0.0012
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.00106046s, send MiB 0.0128 recv MiB 0.0128
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - a2b, executed 1 times, duration 0.00088991s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000396353s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - not_a, executed 23 times, duration 0.000251609s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000229033s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.000127804s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000110976s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - extract_slice, executed 28 times, duration 9.4673e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - p2a, executed 2 times, duration 5.0182e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - make_p, executed 28 times, duration 4.7455e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.7952e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0434e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2606e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1504e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0187e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - transpose, executed 2 times, duration 8.132e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.612e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.659e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.762e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:26.998] [info] [api.cc:228] Link details: total send MiB 4.6512, recv MiB 6.0288, send actions 2491
+[2025-11-06 06:58:28.534] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:28.534] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:28.647] [info] [activation.cc:317] f_nexp 840 sent 3.143242835998535 MiB
+[2025-11-06 06:58:28.647] [info] [activation.cc:317] f_nexp 840 sent 4.271175384521484 MiB
+[2025-11-06 06:58:28.677] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.67e-07s, execution took 1.470923985s, output processing took 1.395e-06s, total time 1.470925947s.
+[2025-11-06 06:58:28.677] [info] [api.cc:215] HAL profiling: total time 1.4698178729999998
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_less, executed 8 times, duration 1.264828014s, send MiB 0.7575 recv MiB 0.7133
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.17366923s, send MiB 3.1432 recv MiB 4.2712
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.029571836s, send MiB 0.7311 recv MiB 1.0257
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - _mux, executed 8 times, duration 0.00118695s, send MiB 0.0065 recv MiB 0.0065
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000340096s, send MiB 0.0152 recv MiB 0.0129
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.6017e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - f_add, executed 9 times, duration 6.5111e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - seal, executed 2 times, duration 6.0619e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:215] MPC profiling: total time 1.469184596
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.265244625s, send MiB 0.7584 recv MiB 0.7135
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - square_s, executed 9 times, duration 0.163078136s, send MiB 3.4226 recv MiB 4.7634
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013686282s, send MiB 0.3754 recv MiB 0.5245
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.012286099s, send MiB 0.0555 recv MiB 0.0106
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011457423s, send MiB 0.0227 recv MiB 0.0012
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.001059807s, send MiB 0.013 recv MiB 0.013
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000956802s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000429838s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - not_a, executed 23 times, duration 0.00023504s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000220876s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.000128589s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000103899s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - extract_slice, executed 28 times, duration 9.0929e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - p2a, executed 2 times, duration 5.1534e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - make_p, executed 28 times, duration 4.9009e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8231e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9798e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2624e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.2521e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0525e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - transpose, executed 2 times, duration 9.296e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.22e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.853e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.64e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:28.677] [info] [api.cc:228] Link details: total send MiB 4.6535, recv MiB 6.0296, send actions 2491
+[2025-11-06 06:58:30.221] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:30.222] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:30.343] [info] [activation.cc:317] f_nexp 852 sent 3.1442880630493164 MiB
+[2025-11-06 06:58:30.343] [info] [activation.cc:317] f_nexp 852 sent 4.271142959594727 MiB
+[2025-11-06 06:58:30.372] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.1e-07s, execution took 1.485547966s, output processing took 1.166e-06s, total time 1.485549542s.
+[2025-11-06 06:58:30.372] [info] [api.cc:215] HAL profiling: total time 1.4843830230000001
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_less, executed 9 times, duration 1.250530044s, send MiB 0.7584 recv MiB 0.7135
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.203388782s, send MiB 3.1443 recv MiB 4.2711
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.028663774s, send MiB 0.7311 recv MiB 1.0258
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - _mux, executed 9 times, duration 0.001240898s, send MiB 0.0066 recv MiB 0.0066
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000330455s, send MiB 0.0154 recv MiB 0.0131
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.5071e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - f_add, executed 10 times, duration 7.489e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - seal, executed 2 times, duration 5.9109e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:215] MPC profiling: total time 1.4837602840000002
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - msb_a2b, executed 10 times, duration 1.250915987s, send MiB 0.7593 recv MiB 0.7138
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - square_s, executed 9 times, duration 0.192033491s, send MiB 3.4225 recv MiB 4.7632
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013684358s, send MiB 0.3756 recv MiB 0.5247
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.012449388s, send MiB 0.0562 recv MiB 0.0107
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011269431s, send MiB 0.023 recv MiB 0.0012
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - mul_a1b, executed 10 times, duration 0.001092274s, send MiB 0.0132 recv MiB 0.0132
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000892949s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000415525s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - not_a, executed 25 times, duration 0.000245529s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000213359s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - add_aa, executed 41 times, duration 0.000136301s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - add_ap, executed 32 times, duration 0.000107138s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - extract_slice, executed 30 times, duration 0.000102222s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - p2a, executed 2 times, duration 5.2112e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - make_p, executed 30 times, duration 4.6625e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8202e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0739e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2672e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.164e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0518e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - transpose, executed 2 times, duration 7.463e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 5.021e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - broadcast, executed 2 times, duration 4.927e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.413e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:30.372] [info] [api.cc:228] Link details: total send MiB 4.6558, recv MiB 6.0302, send actions 2511
+[2025-11-06 06:58:31.915] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:31.915] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:32.025] [info] [activation.cc:317] f_nexp 864 sent 3.145493507385254 MiB
+[2025-11-06 06:58:32.025] [info] [activation.cc:317] f_nexp 864 sent 4.271427154541016 MiB
+[2025-11-06 06:58:32.055] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.29e-07s, execution took 1.476485728s, output processing took 2.243e-06s, total time 1.4764884s.
+[2025-11-06 06:58:32.055] [info] [api.cc:215] HAL profiling: total time 1.4753129200000004
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_less, executed 7 times, duration 1.274151784s, send MiB 0.759 recv MiB 0.7135
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.17086292s, send MiB 3.1455 recv MiB 4.2714
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.028588768s, send MiB 0.731 recv MiB 1.0258
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - _mux, executed 7 times, duration 0.001061991s, send MiB 0.0067 recv MiB 0.0067
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000413197s, send MiB 0.0157 recv MiB 0.0133
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000112209s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - f_add, executed 8 times, duration 6.4564e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - seal, executed 2 times, duration 5.7487e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:215] MPC profiling: total time 1.4747434000000001
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - msb_a2b, executed 8 times, duration 1.274621897s, send MiB 0.7599 recv MiB 0.7137
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - square_s, executed 9 times, duration 0.159517939s, send MiB 3.4225 recv MiB 4.7633
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013708205s, send MiB 0.3758 recv MiB 0.5249
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.012523222s, send MiB 0.057 recv MiB 0.0109
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011059981s, send MiB 0.0233 recv MiB 0.0012
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - mul_a1b, executed 8 times, duration 0.000985636s, send MiB 0.0134 recv MiB 0.0134
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000915739s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000407024s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - not_a, executed 21 times, duration 0.000248098s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000229273s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - add_aa, executed 33 times, duration 0.000123856s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - add_ap, executed 28 times, duration 0.000110427s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - extract_slice, executed 26 times, duration 9.428e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - p2a, executed 2 times, duration 5.0645e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - make_p, executed 26 times, duration 4.4242e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.785e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9325e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2592e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1775e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - reshape, executed 6 times, duration 9.978e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - transpose, executed 2 times, duration 8.359e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.454e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.841e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.762e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:32.055] [info] [api.cc:228] Link details: total send MiB 4.6578, recv MiB 6.0307, send actions 2471
+[2025-11-06 06:58:33.587] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:33.587] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:33.694] [info] [activation.cc:317] f_nexp 876 sent 3.146714210510254 MiB
+[2025-11-06 06:58:33.695] [info] [activation.cc:317] f_nexp 876 sent 4.271908760070801 MiB
+[2025-11-06 06:58:33.723] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.15e-07s, execution took 1.461441878s, output processing took 2.934e-06s, total time 1.461445327s.
+[2025-11-06 06:58:33.723] [info] [api.cc:215] HAL profiling: total time 1.4603921879999997
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_less, executed 8 times, duration 1.262913856s, send MiB 0.7599 recv MiB 0.7137
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.168058822s, send MiB 3.1467 recv MiB 4.2719
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.027654795s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - _mux, executed 8 times, duration 0.001173863s, send MiB 0.0068 recv MiB 0.0068
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000352905s, send MiB 0.0159 recv MiB 0.0135
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000108897s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - f_add, executed 9 times, duration 6.8844e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - seal, executed 2 times, duration 6.0206e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:215] MPC profiling: total time 1.4598265969999997
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.263266066s, send MiB 0.7608 recv MiB 0.714
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - square_s, executed 9 times, duration 0.156953762s, send MiB 3.4226 recv MiB 4.7635
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013170951s, send MiB 0.376 recv MiB 0.5251
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.012610969s, send MiB 0.0578 recv MiB 0.011
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.010430864s, send MiB 0.0237 recv MiB 0.0012
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.001074169s, send MiB 0.0136 recv MiB 0.0136
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000915401s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000396102s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - not_a, executed 23 times, duration 0.00025168s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000224996s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.000127106s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000102966s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - extract_slice, executed 28 times, duration 9.8884e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - make_p, executed 28 times, duration 5.063e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - p2a, executed 2 times, duration 5.0199e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8036e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - xor_bp, executed 2 times, duration 1.9769e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.229e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1707e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - reshape, executed 6 times, duration 9.841e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - transpose, executed 2 times, duration 7.971e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - broadcast, executed 2 times, duration 4.833e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.815e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.59e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:33.723] [info] [api.cc:228] Link details: total send MiB 4.6604, recv MiB 6.0317, send actions 2491
+[2025-11-06 06:58:35.241] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:35.242] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:35.350] [info] [activation.cc:317] f_nexp 888 sent 3.1478614807128906 MiB
+[2025-11-06 06:58:35.351] [info] [activation.cc:317] f_nexp 888 sent 4.271995544433594 MiB
+[2025-11-06 06:58:35.383] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.53e-07s, execution took 1.457260096s, output processing took 1.348e-06s, total time 1.457261997s.
+[2025-11-06 06:58:35.383] [info] [api.cc:215] HAL profiling: total time 1.4559228750000002
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_less, executed 8 times, duration 1.252043242s, send MiB 0.7606 recv MiB 0.7138
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.170663023s, send MiB 3.1479 recv MiB 4.272
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.031417603s, send MiB 0.7311 recv MiB 1.0257
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - _mux, executed 8 times, duration 0.001207963s, send MiB 0.0069 recv MiB 0.0069
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000358993s, send MiB 0.0161 recv MiB 0.0137
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_negate, executed 1 times, duration 9.9313e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - f_add, executed 9 times, duration 6.9468e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - seal, executed 2 times, duration 6.327e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:215] MPC profiling: total time 1.455247692
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.252397564s, send MiB 0.7615 recv MiB 0.7141
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - square_s, executed 9 times, duration 0.158352501s, send MiB 3.4226 recv MiB 4.7633
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.016839294s, send MiB 0.3762 recv MiB 0.5252
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.013260912s, send MiB 0.0586 recv MiB 0.0112
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.010913354s, send MiB 0.0239 recv MiB 0.0012
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.001061518s, send MiB 0.0137 recv MiB 0.0137
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000943273s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000404249s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - not_a, executed 23 times, duration 0.00026753s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000237803s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.00013508s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000110138s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - extract_slice, executed 28 times, duration 0.000102516s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - p2a, executed 2 times, duration 5.6164e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - make_p, executed 28 times, duration 5.0554e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8437e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0236e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - broadcast, executed 2 times, duration 1.6218e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.3379e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.173e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - reshape, executed 6 times, duration 9.779e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - transpose, executed 2 times, duration 7.927e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.771e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.765e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:35.383] [info] [api.cc:228] Link details: total send MiB 4.6626, recv MiB 6.032, send actions 2491
+[2025-11-06 06:58:36.916] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:36.916] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:37.026] [info] [activation.cc:317] f_nexp 900 sent 3.1493310928344727 MiB
+[2025-11-06 06:58:37.026] [info] [activation.cc:317] f_nexp 900 sent 4.272621154785156 MiB
+[2025-11-06 06:58:37.054] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.82e-07s, execution took 1.465589115s, output processing took 2.778e-06s, total time 1.465592375s.
+[2025-11-06 06:58:37.054] [info] [api.cc:215] HAL profiling: total time 1.4642119849999997
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_less, executed 9 times, duration 1.262964281s, send MiB 0.7615 recv MiB 0.7141
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.171202471s, send MiB 3.1493 recv MiB 4.2726
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.027682896s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - _mux, executed 9 times, duration 0.001725598s, send MiB 0.007 recv MiB 0.007
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000397391s, send MiB 0.0163 recv MiB 0.0139
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000101094s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - f_add, executed 10 times, duration 7.8271e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - seal, executed 2 times, duration 5.9983e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:215] MPC profiling: total time 1.4636339470000002
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - msb_a2b, executed 10 times, duration 1.263315303s, send MiB 0.7624 recv MiB 0.7143
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - square_s, executed 9 times, duration 0.158879683s, send MiB 3.4228 recv MiB 4.7635
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013253225s, send MiB 0.3764 recv MiB 0.5254
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.013023846s, send MiB 0.0594 recv MiB 0.0114
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011229672s, send MiB 0.0243 recv MiB 0.0013
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - mul_a1b, executed 10 times, duration 0.001563605s, send MiB 0.014 recv MiB 0.014
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000910871s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000399179s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - not_a, executed 25 times, duration 0.000254129s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000218235s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - add_aa, executed 41 times, duration 0.000151272s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - extract_slice, executed 30 times, duration 0.000114551s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - add_ap, executed 32 times, duration 0.000107695s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - make_p, executed 30 times, duration 5.4822e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - p2a, executed 2 times, duration 5.2152e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.8487e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0029e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2645e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.2088e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0883e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - transpose, executed 2 times, duration 8.706e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.518e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.69e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.661e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:37.054] [info] [api.cc:228] Link details: total send MiB 4.6653, recv MiB 6.0334, send actions 2511
+[2025-11-06 06:58:38.603] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:38.604] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:38.714] [info] [activation.cc:317] f_nexp 912 sent 3.1501102447509766 MiB
+[2025-11-06 06:58:38.715] [info] [activation.cc:317] f_nexp 912 sent 4.272824287414551 MiB
+[2025-11-06 06:58:38.744] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.53e-07s, execution took 1.485629108s, output processing took 1.241e-06s, total time 1.485630802s.
+[2025-11-06 06:58:38.744] [info] [api.cc:215] HAL profiling: total time 1.4843446540000003
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_less, executed 8 times, duration 1.281759697s, send MiB 0.7622 recv MiB 0.7142
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.172317883s, send MiB 3.1501 recv MiB 4.2728
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.02850015s, send MiB 0.7311 recv MiB 1.0258
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - _mux, executed 8 times, duration 0.001136128s, send MiB 0.007 recv MiB 0.007
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.00039333s, send MiB 0.0165 recv MiB 0.014
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000105905s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - f_add, executed 9 times, duration 7.4638e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - seal, executed 2 times, duration 5.6923e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:215] MPC profiling: total time 1.483779744
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - msb_a2b, executed 9 times, duration 1.282121759s, send MiB 0.7631 recv MiB 0.7144
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - square_s, executed 9 times, duration 0.160253708s, send MiB 3.4225 recv MiB 4.7635
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013527366s, send MiB 0.3765 recv MiB 0.5256
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.013209208s, send MiB 0.0602 recv MiB 0.0115
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.011214263s, send MiB 0.0246 recv MiB 0.0013
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - mul_a1b, executed 9 times, duration 0.001107436s, send MiB 0.0141 recv MiB 0.0141
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000923917s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000393531s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - not_a, executed 23 times, duration 0.000254515s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000219078s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - add_aa, executed 37 times, duration 0.000133104s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - add_ap, executed 30 times, duration 0.000108297s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - extract_slice, executed 28 times, duration 0.00010141s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - make_p, executed 28 times, duration 5.1467e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - p2a, executed 2 times, duration 4.9756e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.7748e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0888e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.264e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.1817e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - broadcast, executed 2 times, duration 1.1577e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0546e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - transpose, executed 2 times, duration 7.974e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.856e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.883e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:38.744] [info] [api.cc:228] Link details: total send MiB 4.6671, recv MiB 6.0338, send actions 2491
+[2025-11-06 06:58:40.250] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:40.250] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:40.358] [info] [activation.cc:317] f_nexp 924 sent 3.151272773742676 MiB
+[2025-11-06 06:58:40.358] [info] [activation.cc:317] f_nexp 924 sent 4.272934913635254 MiB
+[2025-11-06 06:58:40.391] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.8e-07s, execution took 1.444045912s, output processing took 2.863e-06s, total time 1.444049355s.
+[2025-11-06 06:58:40.391] [info] [api.cc:215] HAL profiling: total time 1.4428799239999999
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_less, executed 9 times, duration 1.238099692s, send MiB 0.7631 recv MiB 0.7144
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.170020352s, send MiB 3.1513 recv MiB 4.2729
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.032793124s, send MiB 0.7311 recv MiB 1.0256
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - _mux, executed 9 times, duration 0.001365707s, send MiB 0.0072 recv MiB 0.0072
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000365321s, send MiB 0.0167 recv MiB 0.0142
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.00010059s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - f_add, executed 10 times, duration 7.8104e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - seal, executed 2 times, duration 5.7034e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:215] MPC profiling: total time 1.4422478229999995
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - msb_a2b, executed 10 times, duration 1.238457183s, send MiB 0.764 recv MiB 0.7147
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - square_s, executed 9 times, duration 0.158395615s, send MiB 3.4223 recv MiB 4.7633
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.017541364s, send MiB 0.3768 recv MiB 0.5257
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.013484273s, send MiB 0.061 recv MiB 0.0117
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.010792997s, send MiB 0.0249 recv MiB 0.0013
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - mul_a1b, executed 10 times, duration 0.00117917s, send MiB 0.0143 recv MiB 0.0143
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000914161s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000420965s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - not_a, executed 25 times, duration 0.000256316s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000213602s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - add_aa, executed 41 times, duration 0.000153673s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - add_ap, executed 32 times, duration 0.000114513s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - extract_slice, executed 30 times, duration 0.000105596s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - make_p, executed 30 times, duration 6.4197e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - p2a, executed 2 times, duration 4.9494e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.7928e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.0917e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.2611e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2363e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0418e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - transpose, executed 2 times, duration 7.892e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.628e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.537e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.41e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:40.391] [info] [api.cc:228] Link details: total send MiB 4.6694, recv MiB 6.0343, send actions 2511
+[2025-11-06 06:58:41.929] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:41.929] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:42.037] [info] [activation.cc:317] f_nexp 936 sent 3.152700424194336 MiB
+[2025-11-06 06:58:42.037] [info] [activation.cc:317] f_nexp 936 sent 4.273183822631836 MiB
+[2025-11-06 06:58:42.066] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 4.38e-07s, execution took 1.465724527s, output processing took 1.368e-06s, total time 1.465726333s.
+[2025-11-06 06:58:42.066] [info] [api.cc:215] HAL profiling: total time 1.464418041
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_less, executed 9 times, duration 1.264367351s, send MiB 0.7639 recv MiB 0.7146
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.169880956s, send MiB 3.1527 recv MiB 4.2732
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.0282471s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - _mux, executed 9 times, duration 0.001305567s, send MiB 0.0072 recv MiB 0.0072
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.00038153s, send MiB 0.017 recv MiB 0.0144
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.00010419s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - f_add, executed 10 times, duration 7.2158e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - seal, executed 2 times, duration 5.9189e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:215] MPC profiling: total time 1.4637890420000002
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - msb_a2b, executed 10 times, duration 1.264788461s, send MiB 0.7648 recv MiB 0.7148
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - square_s, executed 9 times, duration 0.157850852s, send MiB 3.4228 recv MiB 4.7635
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.013471635s, send MiB 0.0618 recv MiB 0.0118
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.013395774s, send MiB 0.377 recv MiB 0.5259
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.010776165s, send MiB 0.0252 recv MiB 0.0013
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - mul_a1b, executed 10 times, duration 0.001154091s, send MiB 0.0145 recv MiB 0.0145
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - a2b, executed 1 times, duration 0.000882977s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000373432s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - not_a, executed 25 times, duration 0.000262692s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000258798s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - add_aa, executed 41 times, duration 0.000143028s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - add_ap, executed 32 times, duration 0.000110703s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - extract_slice, executed 30 times, duration 0.000105293s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - p2a, executed 2 times, duration 5.1445e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - make_p, executed 30 times, duration 5.1235e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.9901e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.132e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2995e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.238e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - transpose, executed 2 times, duration 1.2074e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - reshape, executed 6 times, duration 1.0762e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.199e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 5.162e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:218] - mul_ap, executed 1 times, duration 2.668e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:42.066] [info] [api.cc:228] Link details: total send MiB 4.672, recv MiB 6.0352, send actions 2511
+[2025-11-06 06:58:43.623] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:43.623] [info] [cheetah_mul.cc:335] CheetahMul uses 3 modulus for 64 bit input over 64 bit ring
+[2025-11-06 06:58:43.731] [info] [activation.cc:317] f_nexp 948 sent 3.153794288635254 MiB
+[2025-11-06 06:58:43.731] [info] [activation.cc:317] f_nexp 948 sent 4.273387908935547 MiB
+[2025-11-06 06:58:43.764] [info] [api.cc:165] [Profiling] SPU execution _softmax completed, input processing took 5.97e-07s, execution took 1.455338124s, output processing took 3.222e-06s, total time 1.455341943s.
+[2025-11-06 06:58:43.764] [info] [api.cc:215] HAL profiling: total time 1.454201272
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_less, executed 10 times, duration 1.249783548s, send MiB 0.7648 recv MiB 0.7148
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_neg_exp_taylor, executed 1 times, duration 0.170131791s, send MiB 3.1538 recv MiB 4.2734
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_reciprocal, executed 1 times, duration 0.032283939s, send MiB 0.7312 recv MiB 1.0258
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - _mux, executed 10 times, duration 0.001353017s, send MiB 0.0074 recv MiB 0.0074
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_mul, executed 1 times, duration 0.000393593s, send MiB 0.0172 recv MiB 0.0146
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_negate, executed 1 times, duration 0.000117523s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - f_add, executed 11 times, duration 7.9922e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - seal, executed 2 times, duration 5.7939e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:215] MPC profiling: total time 1.4535605320000005
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - msb_a2b, executed 11 times, duration 1.250104638s, send MiB 0.7657 recv MiB 0.715
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - square_s, executed 9 times, duration 0.157949079s, send MiB 3.4227 recv MiB 4.7635
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - mul_aa, executed 8 times, duration 0.017319942s, send MiB 0.3772 recv MiB 0.5261
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - batch_less_ap, executed 1 times, duration 0.01358723s, send MiB 0.0625 recv MiB 0.0119
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - trunc_a, executed 16 times, duration 0.010987329s, send MiB 0.0256 recv MiB 0.0013
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - mul_a1b, executed 11 times, duration 0.001179553s, send MiB 0.0147 recv MiB 0.0147
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - a2b, executed 1 times, duration 0.00093183s, send MiB 0.0024 recv MiB 0.0024
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - and_bb, executed 6 times, duration 0.000396215s, send MiB 0.0009 recv MiB 0.0009
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - not_a, executed 27 times, duration 0.000277845s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - b2a, executed 2 times, duration 0.000249914s, send MiB 0.0027 recv MiB 0.0001
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - add_aa, executed 45 times, duration 0.000150922s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - add_ap, executed 34 times, duration 0.000116199s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - extract_slice, executed 32 times, duration 0.000102574s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - make_p, executed 32 times, duration 5.1571e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - p2a, executed 2 times, duration 5.0226e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - xor_bb, executed 13 times, duration 2.7766e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - xor_bp, executed 2 times, duration 2.1776e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - rshift_b, executed 7 times, duration 1.2397e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - and_pp, executed 1 times, duration 1.2323e-05s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - reshape, executed 6 times, duration 9.826e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - transpose, executed 2 times, duration 8.157e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - broadcast, executed 2 times, duration 5.424e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - bitrev_b, executed 1 times, duration 4.73e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:218] - mul_ap, executed 1 times, duration 3.066e-06s, send MiB 0 recv MiB 0
+[2025-11-06 06:58:43.764] [info] [api.cc:228] Link details: total send MiB 4.6743, recv MiB 6.0359, send actions 2531
+
+Softmax for 12 x 64 tokens
+max diff = 0.002637624740600586
+
+Softmax for 12 x 65 tokens
+max diff = 0.0035644173622131348
+
+Softmax for 12 x 66 tokens
+max diff = 0.002756059169769287
+
+Softmax for 12 x 67 tokens
+max diff = 0.002606809139251709
+
+Softmax for 12 x 68 tokens
+max diff = 0.0020505189895629883
+
+Softmax for 12 x 69 tokens
+max diff = 0.003513336181640625
+
+Softmax for 12 x 70 tokens
+max diff = 0.0025720298290252686
+
+Softmax for 12 x 71 tokens
+max diff = 0.002570033073425293
+
+Softmax for 12 x 72 tokens
+max diff = 0.0028400421142578125
+
+Softmax for 12 x 73 tokens
+max diff = 0.002678990364074707
+
+Softmax for 12 x 74 tokens
+max diff = 0.003704547882080078
+
+Softmax for 12 x 75 tokens
+max diff = 0.0014281868934631348
+
+Softmax for 12 x 76 tokens
+max diff = 0.0033011436462402344
+
+Softmax for 12 x 77 tokens
+max diff = 0.0018006563186645508
+
+Softmax for 12 x 78 tokens
+max diff = 0.002589106559753418
+
+Softmax for 12 x 79 tokens
+max diff = 0.0021837353706359863
