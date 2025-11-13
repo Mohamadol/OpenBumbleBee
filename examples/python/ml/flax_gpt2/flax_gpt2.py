@@ -152,7 +152,7 @@ def main(tokenizer_func, model_func, checkpoint):
     #     'I enjoy walking with my cute dog', return_tensors='jax'
     # )
     input_ids = tokenizer.encode(
-        INPUT_384,
+        INPUT_512,
         return_tensors='jax',
     )
     print(input_ids.shape)
