@@ -1,0 +1,4 @@
+(1, 1)
+Running on SPU ...
+SPU runtime: 41.08592438697815s
+output Hi.

@@ -1,0 +1,30 @@
+[2025-11-06 01:44:14.806] [info] [thread_pool.cc:30] Create a fixed thread pool with size 31
+[2025-11-06 01:44:15.147] [info] [cheetah_dot.cc:310] CheetahDot uses 3@2 modulus 8192 degree for 64 bit ring (packing=enabled)
+[2025-11-06 01:44:15.215] [info] [cheetah_dot.cc:475] 12@1x64x257 => 1x64x128 Recv 2.117 MiB, Response 0.243 MiB Pack 29.258 ms (interleave)
+[2025-11-06 01:44:15.218] [info] [cheetah_dot.cc:475] 12@1x64x257 => 1x64x128 Recv 2.117 MiB, Response 0.243 MiB Pack 31.414 ms (interleave)
+[2025-11-06 01:44:15.220] [info] [api.cc:165] [Profiling] SPU execution <lambda> completed, input processing took 8.02e-07s, execution took 0.398405862s, output processing took 2.562e-06s, total time 0.398409226s.
+[2025-11-06 01:44:15.220] [info] [api.cc:215] HAL profiling: total time 0.397928294
+[2025-11-06 01:44:15.220] [info] [api.cc:218] - i_batch_mmul, executed 1 times, duration 0.397928294s, send MiB 11.7851 recv MiB 11.7854
+[2025-11-06 01:44:15.220] [info] [api.cc:215] MPC profiling: total time 0.397941757
+[2025-11-06 01:44:15.220] [info] [api.cc:218] - batch_mmul_aa, executed 1 times, duration 0.397922548s, send MiB 11.7851 recv MiB 11.7854
+[2025-11-06 01:44:15.220] [info] [api.cc:218] - reshape, executed 4 times, duration 1.296e-05s, send MiB 0 recv MiB 0
+[2025-11-06 01:44:15.220] [info] [api.cc:218] - transpose, executed 1 times, duration 6.249e-06s, send MiB 0 recv MiB 0
+[2025-11-06 01:44:15.220] [info] [api.cc:228] Link details: total send MiB 11.7851, recv MiB 11.7854, send actions 15
+[2025-11-06 01:44:15.580] [info] [cheetah_dot.cc:310] CheetahDot uses 3@2 modulus 8192 degree for 64 bit ring (packing=enabled)
+[2025-11-06 01:44:15.703] [info] [cheetah_dot.cc:475] 12@64x257x1 => 32x256x1 Recv 4.234 MiB, Response 0.243 MiB Pack 49.717 ms (interleave)
+[2025-11-06 01:44:15.703] [info] [cheetah_dot.cc:475] 12@64x257x1 => 32x256x1 Recv 4.233 MiB, Response 0.243 MiB Pack 51.034 ms (interleave)
+[2025-11-06 01:44:15.705] [info] [api.cc:165] [Profiling] SPU execution <lambda> completed, input processing took 7.27e-07s, execution took 0.364377492s, output processing took 3.35e-06s, total time 0.364381569s.
+[2025-11-06 01:44:15.705] [info] [api.cc:215] HAL profiling: total time 0.363793934
+[2025-11-06 01:44:15.705] [info] [api.cc:218] - i_batch_mmul, executed 1 times, duration 0.363793934s, send MiB 13.9019 recv MiB 13.9015
+[2025-11-06 01:44:15.705] [info] [api.cc:215] MPC profiling: total time 0.363802561
+[2025-11-06 01:44:15.705] [info] [api.cc:218] - batch_mmul_aa, executed 1 times, duration 0.363786157s, send MiB 13.9019 recv MiB 13.9015
+[2025-11-06 01:44:15.705] [info] [api.cc:218] - reshape, executed 4 times, duration 1.6404e-05s, send MiB 0 recv MiB 0
+[2025-11-06 01:44:15.705] [info] [api.cc:228] Link details: total send MiB 13.9019, recv MiB 13.9015, send actions 27
+
+
+ batch: 12 -- n: 1 -- d: 64 -- d_head: 257
+batch matmul max diff = 0
+
+
+ batch: 12 -- n: 64 -- d: 257 -- d_head: 1
+batch matmul max diff = 0
